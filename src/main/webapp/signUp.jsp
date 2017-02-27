@@ -70,204 +70,244 @@
 
 	<section id="sheet" style="padding-top: 100px">
 	<div class="container">
-		<h4>必填欄位</h4>
-		<ul>
+	<form class="form-signin" method="post" action="webapi/team/signUp">
+		<h4 style="font-size: 1.4em; padding: 8px 0 8px 15px; margin: 25px 0 15px 0; border-left: solid 8px #368491">必填欄位</h4>
+		<ul style="list-style-type:none">
 			<li>
-				<label for="Name">隊伍名稱：</label>
-				<input id="Name" maxlength="50" name="Name" size="50" type="text" placeholder="eg. 逢甲代表隊" required>
+				<label for="Name" style="font-size: 1.3em;  height: 50px; font-weight: 300">隊伍名稱：</label>
+				<input id="Name" maxlength="50" name="Name" size="50" type="text" placeholder="e.g., 逢甲代表隊" required
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 			</li>
 			<li>
-				<label for="Email">連絡信箱：</label>
-				<input id="Email" maxlength="50" name="Email" size="50" type="email" placeholder="eg. example@example.com" required>
+				<label for="Email" style="font-size: 1.3em;  height: 50px; font-weight: 300">連絡信箱：</label>
+				<input id="Email" maxlength="50" name="Email" size="50" type="email" placeholder="e.g., example@example.com" required
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 				<span>(信箱將做為登入帳號)</span>
 			</li>
 		</ul>
 
-		<h4>隊長</h4>
-		<ul>
+		<h4 style="font-size: 1.4em; padding: 8px 0 8px 15px; margin: 25px 0 15px 0; border-left: solid 8px #368491">隊長</h4>
+		<ul style="list-style-type:none">
 			<li>
-				<label for="Leader">姓名：</label>
-				<input id="Leader" maxlength="50" name="Leader" size="50" type="text" required>
+				<label for="Leader" style="font-size: 1.3em;  height: 50px; font-weight: 300">姓名：</label>
+				<input id="Leader" maxlength="50" name="Leader" size="50" type="text" required
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 			</li>
 			<li>
-				<label for="Phone" class="control-label">聯絡電話：</label>
-				<input id="Phone" maxlength="50" name="Phone" size="50" type="text" placeholder="eg. 04-24517250" required>
+				<label for="Phone" class="control-label" style="font-size: 1.3em;  height: 50px; font-weight: 300">聯絡電話：</label>
+				<input id="Phone" maxlength="50" name="Phone" size="50" type="text" placeholder="e.g., 04-24517250" required
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 			</li>
 			<li>
-				<label for="LeaderSchool">就讀學校：</label>
-				<input id="LeaderSchool" maxlength="50" name="LeaderSchool" size="50" type="text" placeholder="eg. 逢甲大學" required>
+				<label for="LeaderSchool" style="font-size: 1.3em;  height: 50px; font-weight: 300">就讀學校：</label>
+				<input id="LeaderSchool" maxlength="50" name="LeaderSchool" size="50" type="text" placeholder="e.g., 逢甲大學" required
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 			</li>
 			<li>
-				<label for="LeaderDepartment">就讀學系：</label>
-				<input id="LeaderDepartment" maxlength="50" name="LeaderDepartment" size="50" type="text" placeholder="eg. 資訊工程學系" required>
+				<label for="LeaderDepartment" style="font-size: 1.3em;  height: 50px; font-weight: 300">就讀學系：</label>
+				<input id="LeaderDepartment" maxlength="50" name="LeaderDepartment" size="50" type="text" placeholder="e.g., 資訊工程學系" required
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 			</li>
 			<li>
-				<label for="LeaderGrade">年級：</label>
-				<input id="LeaderGrade" maxlength="50" name="LeaderGrade" size="50" type="text" placeholder="eg. 大一, 碩二, 博三" required>
-			</li>
-		</ul>
-		<h4>其他隊員</h4>
-		<ul>
-			<li>
-				<p>1.</p>
-			</li>
-			<li>
-				<label for="FirstMember">姓名：</label>
-				<input id="FirstMember" maxlength="50" name="FirstMember" size="50" type="text">
-			</li>
-			<li>
-				<label for="FirstMemberSchool">就讀學校：</label>
-				<input id="FirstMemberSchool" maxlength="50" name="FirstMemberSchool" size="50" type="text" placeholder="eg. 逢甲大學">
-			</li>
-			<li>
-				<label for="FirstMemberDepartment">就讀學系：</label>
-				<input id="FirstMemberDepartment" maxlength="50" name="FirstMemberDepartment" size="50" type="text" placeholder="eg. 資訊工程學系">
-			</li>
-			<li>
-				<label for="FirstMemberGrade">年級：</label>
-				<input id="FirstMemberGrade" maxlength="50" name="FirstMemberGrade" size="50" type="text" placeholder="eg. 大一, 碩二, 博三">
+				<label for="LeaderGrade" style="font-size: 1.3em;  height: 50px; font-weight: 300">年級：</label>
+				<input id="LeaderGrade" maxlength="50" name="LeaderGrade" size="50" type="text" placeholder="e.g., 大一, 碩二, 博三" required
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 			</li>
 		</ul>
-		<ul>
+		<h4 style="font-size: 1.4em; padding: 8px 0 8px 15px; margin: 25px 0 15px 0; border-left: solid 8px #368491">其他隊員</h4>
+		<ul style="list-style-type:none">
 			<li>
-				<p>2.</p>
+				<p style="font-size: 1.3em; border-left: solid 8px #368491; padding: 4px 0 4px 15px"><strong>隊員一</strong></p>
 			</li>
 			<li>
-				<label for="SecondMember">姓名：</label>
-				<input id="SecondMember" maxlength="50" name="SecondMember" size="50" type="text">
+				<label for="FirstMember" style="font-size: 1.3em;  height: 50px; font-weight: 300">姓名：</label>
+				<input id="FirstMember" maxlength="50" name="FirstMember" size="50" type="text"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 			</li>
 			<li>
-				<label for="SecondMemberSchool">就讀學校：</label>
-				<input id="SecondMemberSchool" maxlength="50" name="SecondMemberSchool" size="50" type="text" placeholder="eg. 逢甲大學">
+				<label for="FirstMemberSchool" style="font-size: 1.3em;  height: 50px; font-weight: 300">就讀學校：</label>
+				<input id="FirstMemberSchool" maxlength="50" name="FirstMemberSchool" size="50" type="text" placeholder="e.g., 逢甲大學"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 			</li>
 			<li>
-				<label for="SecondMemberDepartment">就讀學系：</label>
-				<input id="SecondMemberDepartment" maxlength="50" name="SecondMemberDepartment" size="50" type="text" placeholder="eg. 資訊工程學系">
+				<label for="FirstMemberDepartment" style="font-size: 1.3em;  height: 50px; font-weight: 300">就讀學系：</label>
+				<input id="FirstMemberDepartment" maxlength="50" name="FirstMemberDepartment" size="50" type="text" placeholder="e.g., 資訊工程學系"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 			</li>
 			<li>
-				<label for="SecondMemberGrade">年級：</label>
-				<input id="SecondMemberGrade" maxlength="50" name="SecondMemberGrade" size="50" type="text" placeholder="eg. 大一, 碩二, 博三">
-			</li>
-		</ul>
-		<ul>
-			<li>
-				<p>3.</p>
-			</li>
-			<li>
-				<label for="ThirdMember">姓名：</label>
-				<input id="ThirdMember" maxlength="50" name="ThirdMember" size="50" type="text">
-			</li>
-			<li>
-				<label for="ThirdMemberSchool">就讀學校：</label>
-				<input id="ThirdMemberSchool" maxlength="50" name="ThirdMemberSchool" size="50" type="text" placeholder="eg. 逢甲大學">
-			</li>
-			<li>
-				<label for="ThirdMemberDepartment">就讀學系：</label>
-				<input id="ThirdMemberDepartment" maxlength="50" name="ThirdMemberDepartment" size="50" type="text" placeholder="eg. 資訊工程學系">
-			</li>
-			<li>
-				<label for="ThirdMemberGrade">年級：</label>
-				<input id="ThirdMemberGrade" maxlength="50" name="ThirdMemberGrade" size="50" type="text" placeholder="eg. 大一, 碩二, 博三">
+				<label for="FirstMemberGrade" style="font-size: 1.3em;  height: 50px; font-weight: 300">年級：</label>
+				<input id="FirstMemberGrade" maxlength="50" name="FirstMemberGrade" size="50" type="text" placeholder="e.g., 大一, 碩二, 博三"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 			</li>
 		</ul>
-		<ul>
+		<ul style="list-style-type:none">
 			<li>
-				<p>4.</p>
+				<p style="font-size: 1.3em; border-left: solid 8px #368491; padding: 4px 0 4px 15px"><strong>隊員二</strong></p>
 			</li>
 			<li>
-				<label for="FourthMember">姓名：</label>
-				<input id="FourthMember" maxlength="50" name="FourthMember" size="50" type="text">
+				<label for="SecondMember" style="font-size: 1.3em;  height: 50px; font-weight: 300">姓名：</label>
+				<input id="SecondMember" maxlength="50" name="SecondMember" size="50" type="text"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 			</li>
 			<li>
-				<label for="FourthMemberSchool">就讀學校：</label>
-				<input id="FourthMemberSchool" maxlength="50" name="FourthMemberSchool" size="50" type="text" placeholder="eg. 逢甲大學">
+				<label for="SecondMemberSchool" style="font-size: 1.3em;  height: 50px; font-weight: 300">就讀學校：</label>
+				<input id="SecondMemberSchool" maxlength="50" name="SecondMemberSchool" size="50" type="text" placeholder="e.g., 逢甲大學"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 			</li>
 			<li>
-				<label for="FourthMemberDepartment">就讀學系：</label>
-				<input id="FourthMemberDepartment" maxlength="50" name="FourthMemberDepartment" size="50" type="text" placeholder="eg. 資訊工程學系">
+				<label for="SecondMemberDepartment" style="font-size: 1.3em;  height: 50px; font-weight: 300">就讀學系：</label>
+				<input id="SecondMemberDepartment" maxlength="50" name="SecondMemberDepartment" size="50" type="text" placeholder="e.g., 資訊工程學系"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 			</li>
 			<li>
-				<label for="FourthMemberGrade">年級：</label>
-				<input id="FourthMemberGrade" maxlength="50" name="FourthMemberGrade" size="50" type="text" placeholder="eg. 大一, 碩二, 博三">
-			</li>
-		</ul>
-		<ul>
-			<li>
-				<p>5.</p>
-			</li>
-			<li>
-				<label for="FifthMember">姓名：</label>
-				<input id="FifthMember" maxlength="50" name="FifthMember" size="50" type="text">
-			</li>
-			<li>
-				<label for="FifthMemberSchool">就讀學校：</label>
-				<input id="FifthMemberSchool" maxlength="50" name="FifthMemberSchool" size="50" type="text" placeholder="eg. 逢甲大學">
-			</li>
-			<li>
-				<label for="FifthMemberDepartment">就讀學系：</label>
-				<input id="FifthMemberDepartment" maxlength="50" name="FifthMemberDepartment" size="50" type="text" placeholder="eg. 資訊工程學系">
-			</li>
-			<li>
-				<label for="FifthMemberGrade">年級：</label>
-				<input id="FifthMemberGrade" maxlength="50" name="FifthMemberGrade" size="50" type="text" placeholder="eg. 大一, 碩二, 博三">
+				<label for="SecondMemberGrade" style="font-size: 1.3em;  height: 50px; font-weight: 300">年級：</label>
+				<input id="SecondMemberGrade" maxlength="50" name="SecondMemberGrade" size="50" type="text" placeholder="e.g., 大一, 碩二, 博三"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 			</li>
 		</ul>
-		<ul>
+		<ul style="list-style-type:none">
 			<li>
-				<p>6.</p>
+				<p style="font-size: 1.3em; border-left: solid 8px #368491; padding: 4px 0 4px 15px"><strong>隊員三</strong></p>
 			</li>
 			<li>
-				<label for="SixthMember">姓名：</label>
-				<input id="SixthMember" maxlength="50" name="SixthMember" size="50" type="text">
+				<label for="ThirdMember" style="font-size: 1.3em;  height: 50px; font-weight: 300">姓名：</label>
+				<input id="ThirdMember" maxlength="50" name="ThirdMember" size="50" type="text"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 			</li>
 			<li>
-				<label for="SixthMemberSchool">就讀學校：</label>
-				<input id="SixthMemberSchool" maxlength="50" name="SixthMemberSchool" size="50" type="text" placeholder="eg. 逢甲大學">
+				<label for="ThirdMemberSchool" style="font-size: 1.3em;  height: 50px; font-weight: 300">就讀學校：</label>
+				<input id="ThirdMemberSchool" maxlength="50" name="ThirdMemberSchool" size="50" type="text" placeholder="e.g., 逢甲大學"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 			</li>
 			<li>
-				<label for="SixthMemberDepartment">就讀學系：</label>
-				<input id="SixthMemberDepartment" maxlength="50" name="SixthMemberDepartment" size="50" type="text" placeholder="eg. 資訊工程學系">
+				<label for="ThirdMemberDepartment" style="font-size: 1.3em;  height: 50px; font-weight: 300">就讀學系：</label>
+				<input id="ThirdMemberDepartment" maxlength="50" name="ThirdMemberDepartment" size="50" type="text" placeholder="e.g., 資訊工程學系"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 			</li>
 			<li>
-				<label for="SixthMemberGrade">年級：</label>
-				<input id="SixthMemberGrade" maxlength="50" name="SixthMemberGrade" size="50" type="text" placeholder="eg. 大一, 碩二, 博三">
-			</li>
-		</ul>
-		<h4>指導老師</h4>
-		<ul>
-			<li>
-				<p>第一指導老師</p>
-			</li>
-			<li>
-				<label for="SixthMember">姓名：</label>
-				<input id="SixthMember" maxlength="50" name="SixthMember" size="50" type="text">
-			</li>
-			<li>
-				<label for="SixthMemberSchool">任教學校：</label>
-				<input id="SixthMemberSchool" maxlength="50" name="SixthMemberSchool" size="50" type="text" placeholder="eg. 逢甲大學">
-			</li>
-			<li>
-				<label for="SixthMemberDepartment">任教學系：</label>
-				<input id="SixthMemberDepartment" maxlength="50" name="SixthMemberDepartment" size="50" type="text" placeholder="eg. 資訊工程學系">
+				<label for="ThirdMemberGrade" style="font-size: 1.3em;  height: 50px; font-weight: 300">年級：</label>
+				<input id="ThirdMemberGrade" maxlength="50" name="ThirdMemberGrade" size="50" type="text" placeholder="e.g., 大一, 碩二, 博三"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 			</li>
 		</ul>
-		<ul>
+		<ul style="list-style-type:none">
 			<li>
-				<p>第二指導老師</p>
+				<p style="font-size: 1.3em; border-left: solid 8px #368491; padding: 4px 0 4px 15px"><strong>隊員四</strong></p>
 			</li>
 			<li>
-				<label for="SixthMember">姓名：</label>
-				<input id="SixthMember" maxlength="50" name="SixthMember" size="50" type="text">
+				<label for="FourthMember" style="font-size: 1.3em;  height: 50px; font-weight: 300">姓名：</label>
+				<input id="FourthMember" maxlength="50" name="FourthMember" size="50" type="text"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 			</li>
 			<li>
-				<label for="SixthMemberSchool">任教學校：</label>
-				<input id="SixthMemberSchool" maxlength="50" name="SixthMemberSchool" size="50" type="text" placeholder="eg. 逢甲大學">
+				<label for="FourthMemberSchool" style="font-size: 1.3em;  height: 50px; font-weight: 300">就讀學校：</label>
+				<input id="FourthMemberSchool" maxlength="50" name="FourthMemberSchool" size="50" type="text" placeholder="e.g., 逢甲大學"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 			</li>
 			<li>
-				<label for="SixthMemberDepartment">任教學系：</label>
-				<input id="SixthMemberDepartment" maxlength="50" name="SixthMemberDepartment" size="50" type="text" placeholder="eg. 資訊工程學系">
+				<label for="FourthMemberDepartment" style="font-size: 1.3em;  height: 50px; font-weight: 300">就讀學系：</label>
+				<input id="FourthMemberDepartment" maxlength="50" name="FourthMemberDepartment" size="50" type="text" placeholder="e.g., 資訊工程學系"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
+			</li>
+			<li>
+				<label for="FourthMemberGrade" style="font-size: 1.3em;  height: 50px; font-weight: 300">年級：</label>
+				<input id="FourthMemberGrade" maxlength="50" name="FourthMemberGrade" size="50" type="text" placeholder="e.g., 大一, 碩二, 博三"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
 			</li>
 		</ul>
+		<ul style="list-style-type:none">
+			<li>
+				<p style="font-size: 1.3em; border-left: solid 8px #368491; padding: 4px 0 4px 15px"><strong>隊員五</strong></p>
+			</li>
+			<li>
+				<label for="FifthMember" style="font-size: 1.3em;  height: 50px; font-weight: 300">姓名：</label>
+				<input id="FifthMember" maxlength="50" name="FifthMember" size="50" type="text"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
+			</li>
+			<li>
+				<label for="FifthMemberSchool" style="font-size: 1.3em;  height: 50px; font-weight: 300">就讀學校：</label>
+				<input id="FifthMemberSchool" maxlength="50" name="FifthMemberSchool" size="50" type="text" placeholder="e.g., 逢甲大學"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
+			</li>
+			<li>
+				<label for="FifthMemberDepartment" style="font-size: 1.3em;  height: 50px; font-weight: 300">就讀學系：</label>
+				<input id="FifthMemberDepartment" maxlength="50" name="FifthMemberDepartment" size="50" type="text" placeholder="e.g., 資訊工程學系"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
+			</li>
+			<li>
+				<label for="FifthMemberGrade" style="font-size: 1.3em;  height: 50px; font-weight: 300">年級：</label>
+				<input id="FifthMemberGrade" maxlength="50" name="FifthMemberGrade" size="50" type="text" placeholder="e.g., 大一, 碩二, 博三"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
+			</li>
+		</ul>
+		<ul style="list-style-type:none">
+			<li>
+				<p style="font-size: 1.3em; border-left: solid 8px #368491; padding: 4px 0 4px 15px"><strong>隊員六</strong></p>
+			</li>
+			<li>
+				<label for="SixthMember" style="font-size: 1.3em;  height: 50px; font-weight: 300">姓名：</label>
+				<input id="SixthMember" maxlength="50" name="SixthMember" size="50" type="text"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
+			</li>
+			<li>
+				<label for="SixthMemberSchool" style="font-size: 1.3em;  height: 50px; font-weight: 300">就讀學校：</label>
+				<input id="SixthMemberSchool" maxlength="50" name="SixthMemberSchool" size="50" type="text" placeholder="e.g., 逢甲大學"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
+			</li>
+			<li>
+				<label for="SixthMemberDepartment" style="font-size: 1.3em;  height: 50px; font-weight: 300">就讀學系：</label>
+				<input id="SixthMemberDepartment" maxlength="50" name="SixthMemberDepartment" size="50" type="text" placeholder="e.g., 資訊工程學系"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
+			</li>
+			<li>
+				<label for="SixthMemberGrade" style="font-size: 1.3em;  height: 50px; font-weight: 300">年級：</label>
+				<input id="SixthMemberGrade" maxlength="50" name="SixthMemberGrade" size="50" type="text" placeholder="e.g., 大一, 碩二, 博三"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
+			</li>
+		</ul>
+		<h4 style="font-size: 1.4em; padding: 8px 0 8px 15px; margin: 25px 0 15px 0; border-left: solid 8px #368491">指導老師</h4>
+		<ul style="list-style-type:none">
+			<li>
+				<p style="font-size: 1.3em; border-left: solid 8px #368491; padding: 4px 0 4px 15px">第一指導老師</p>
+			</li>
+			<li>
+				<label for="FirstTeacher" style="font-size: 1.3em;  height: 50px; font-weight: 300">姓名：</label>
+				<input id="FirstTeacher" maxlength="50" name="FirstTeacher" size="50" type="text"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
+			</li>
+			<li>
+				<label for="FirstTeacherSchool" style="font-size: 1.3em;  height: 50px; font-weight: 300">任教學校：</label>
+				<input id="FirstTeacherSchool" maxlength="50" name="FirstTeacherSchool" size="50" type="text" placeholder="e.g., 逢甲大學"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
+			</li>
+			<li>
+				<label for="FirstTeacherDepartment" style="font-size: 1.3em;  height: 50px; font-weight: 300">任教學系：</label>
+				<input id="FirstTeacherDepartment" maxlength="50" name="FirstTeacherDepartment" size="50" type="text" placeholder="e.g., 資訊工程學系"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
+			</li>
+		</ul>
+		<ul style="list-style-type:none">
+			<li>
+				<p style="font-size: 1.3em; border-left: solid 8px #368491; padding: 4px 0 4px 15px">第二指導老師</p>
+			</li>
+			<li>
+				<label for="SecondTeacher" style="font-size: 1.3em;  height: 50px; font-weight: 300">姓名：</label>
+				<input id="SecondTeacher" maxlength="50" name="SecondTeacher" size="50" type="text"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
+			</li>
+			<li>
+				<label for="SecondTeacherSchool" style="font-size: 1.3em;  height: 50px; font-weight: 300">任教學校：</label>
+				<input id="SecondTeacherSchool" maxlength="50" name="SecondTeacherSchool" size="50" type="text" placeholder="e.g., 逢甲大學"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
+			</li>
+			<li>
+				<label for="SecondTeacherDepartment" style="font-size: 1.3em;  height: 50px; font-weight: 300">任教學系：</label>
+				<input id="SecondTeacherDepartment" maxlength="50" name="SecondTeacherDepartment" size="50" type="text" placeholder="e.g., 資訊工程學系"
+				style="border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px">
+			</li>
+		</ul>
+		<button type="submit" class="btn btn-success btn-block">送出</button>
+	</form>
 	</div>
 	</section>
 
