@@ -96,7 +96,7 @@ public class TeamService {
 		
 		dbManager.addTeam(team);
 		
-		java.net.URI location = new java.net.URI("../signUpSuccess.jsp");
+		java.net.URI location = new java.net.URI("../signUpReview.jsp");
 		return Response.temporaryRedirect(location).build();
 	}
 //

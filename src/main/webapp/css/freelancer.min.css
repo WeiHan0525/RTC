@@ -90,9 +90,11 @@ section.success{background:#18BC9C;color:#fff}
 #signUp table{border:none;margin: auto;padding: 5px}
 #signUp .arrow{width: 64px;height: 64px}
 
-#signUp h4{font-size: 1.4em; padding: 8px 0 8px 15px; margin: 25px 0 15px 0; border-left: solid 8px #368491}
-#sighUp ul{list-style-type: none}
-#signUp input{border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px;}
+#sheet h4{font-size: 1.4em; padding: 8px 0 8px 15px; margin: 25px 0 15px 0; border-left: solid 8px #368491}
+#sheet ul{list-style-type: none}
+#sheet input{border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px}
+#sheet label{font-size: 1.3em;  height: 50px; font-weight: 300}
+#sheet p{font-size: 1.3em; border-left: solid 8px #368491; padding: 4px 0 4px 15px}
 
 #portfolio .portfolio-item{margin:0 0 15px;right:0}
 #portfolio .portfolio-item .portfolio-link{display:block;position:relative;max-width:400px;margin:0 auto}
