@@ -95,7 +95,8 @@ section.success{background:#18BC9C;color:#fff}
 #sheet input{border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px}
 #sheet label{font-size: 1.3em;  height: 50px; font-weight: 300}
 #sheet p{font-size: 1.3em; border-left: solid 8px #368491; padding: 4px 0 4px 15px}
-#sheet buton{background-color: #368491; color: white; border-radius: 8px}
+#sheet button{background-color: #368491; color: white; border-radius: 8px}
+#sheet button:hover{background-color: white; border-color: #368491; border-radius: 8px; color: #368491}
 
 #portfolio .portfolio-item{margin:0 0 15px;right:0}
 #portfolio .portfolio-item .portfolio-link{display:block;position:relative;max-width:400px;margin:0 auto}
