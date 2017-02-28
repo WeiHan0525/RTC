@@ -37,12 +37,12 @@ public class TeamDBManager {
 				+ "FifthMember, FifthMemberSchool, FifthMemberDepartment, FifthMemberGrade, "
 				+ "SixthMember, SixthMemberSchool, SixthMemberDepartment, SixthMemberGrade, "
 				+ "FirstTeacher, FirstTeacherSchool, FirstTeacherDepartment, "
-				+ "SecondTeacher, SecondTeacherSchool, SecondTeacherDepartment)  "
+				+ "SecondTeacher, SecondTeacherSchool, SecondTeacherDepartment, secret)  "
 				+ "VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?"
-				+ ", ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+				+ ", ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 		String query = "SELECT * FROM Team";
 		try {
-			if(CheckaddTeam(team.getEmail())){
+			if(CheckaddTeam(team.getEmail())){ //有相同email不給新增
 				return false;
 			}
 			
@@ -94,6 +94,7 @@ public class TeamDBManager {
 				preStmt.setString(35, team.getSecondTeacher());
 				preStmt.setString(36, team.getSecondTeacherSchool());
 				preStmt.setString(37, team.getSecondTeacherDepartment());
+				preStmt.setString(38, generate());
 				
 				preStmt.executeUpdate();
 				preStmt.close();
@@ -119,6 +120,24 @@ public class TeamDBManager {
 			}
 		}
 		return false;
+	}
+	
+	public String generate(){
+		int z;
+	    StringBuilder sb = new StringBuilder();
+	    int i;
+	    for (i = 0; i < 8; i++) {
+	      z = (int) ((Math.random() * 7) % 3);
+	 
+	      if (z == 1) { // 放數字
+	        sb.append((int) ((Math.random() * 10) + 48));
+	      } else if (z == 2) { // 放大寫英文
+	        sb.append((char) (((Math.random() * 26) + 65)));
+	      } else {// 放小寫英文
+	        sb.append(((char) ((Math.random() * 26) + 97)));
+	      }
+	    }
+	    return sb.toString();
 	}
 //
 //	public boolean validateTeam(String email, String password) {
