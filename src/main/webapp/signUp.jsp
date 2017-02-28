@@ -270,7 +270,7 @@
 			</li>
 		</ul>
 		<div class="col-md-2 col-md-offset-5" style="margin-bottom: 30px">
-			<button type="submit" class="btn btn-success btn-block" style="background-color: #368491; color: white; border-radius: 8px">送出</button>
+			<button type="submit" class="btn btn-block">送出</button>
 		</div>
 	</form>
 	</div>
