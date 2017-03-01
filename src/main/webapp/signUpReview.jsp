@@ -72,11 +72,6 @@
 		<div class="container" style="padding-bottom: 100px">
 			<h3>報名審核中……</h3>
 			<h3>報名成功後，將寄驗證信至聯絡信箱</h3>
-			<div class="text-center">
-			<a href="index.jsp" style="color: #333">
-				<u style="font-size: 18px">回首頁</u>
-			</a>
-			</div>
 		</div>
 	</section>
 

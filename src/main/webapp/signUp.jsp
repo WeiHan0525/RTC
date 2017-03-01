@@ -78,9 +78,9 @@
 				<input id="Name" maxlength="50" name="Name" size="50" type="text" placeholder="e.g., 逢甲代表隊" required>
 			</li>
 			<li>
-				<label for="Email">連絡信箱：</label>
+				<label for="Email">聯絡信箱：</label>
 				<input id="Email" maxlength="50" name="Email" size="50" type="email" placeholder="e.g., example@example.com" required>
-				<span>(信箱將做為登入帳號)</span>
+				<p style="border: none; color: #760000">※信箱將做為<u>登入帳號</u>且不得重複
 			</li>
 		</ul>
 
@@ -241,15 +241,15 @@
 			</li>
 			<li>
 				<label for="FirstTeacher">姓名：</label>
-				<input id="FirstTeacher" maxlength="50" name="FirstTeacher" size="50" type="text">
+				<input id="FirstTeacher" maxlength="50" name="FirstTeacher" size="50" type="text" required>
 			</li>
 			<li>
 				<label for="FirstTeacherSchool">任教學校：</label>
-				<input id="FirstTeacherSchool" maxlength="50" name="FirstTeacherSchool" size="50" type="text" placeholder="e.g., 逢甲大學">
+				<input id="FirstTeacherSchool" maxlength="50" name="FirstTeacherSchool" size="50" type="text" placeholder="e.g., 逢甲大學" required>
 			</li>
 			<li>
 				<label for="FirstTeacherDepartment">任教學系：</label>
-				<input id="FirstTeacherDepartment" maxlength="50" name="FirstTeacherDepartment" size="50" type="text" placeholder="e.g., 資訊工程學系">
+				<input id="FirstTeacherDepartment" maxlength="50" name="FirstTeacherDepartment" size="50" type="text" placeholder="e.g., 資訊工程學系" required>
 			</li>
 		</ul>
 		<ul>
@@ -269,6 +269,7 @@
 				<input id="SecondTeacherDepartment" maxlength="50" name="SecondTeacherDepartment" size="50" type="text" placeholder="e.g., 資訊工程學系">
 			</li>
 		</ul>
+		<p style="border: none; color: #760000">※注意：參賽人數（含指導老師）不得超過9人
 		<div class="col-md-2 col-md-offset-5" style="margin-bottom: 30px">
 			<button type="submit" class="btn btn-block">送出</button>
 		</div>

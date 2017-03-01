@@ -74,7 +74,6 @@
                         <div class="dropdown">
                             <button type="button" class="btn btn-lg btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> 報名 </button>
                             <ul class="dropdown-menu" role="menu">
-                            	<li> <a href="signUp.jsp">報名入口 </a></li>
                                 <li class="page-scroll"> <a href="#signUp">大賽報名</a> </li>
                                 <li class="page-scroll"> <a href="#require">參賽要求</a> </li>
                                 <li class="page-scroll"> <a href="#product">作品要求</a> </li>
@@ -95,7 +94,7 @@
                         <a type="button" href="#about">主辦及協辦</a>
                     </li>
 -->
-                    <li class="page-scroll"> <a href="declare.jsp">相關聲明</a> </li>
+                    <li class="page-scroll"> <a href="declare.jsp">報名入口</a> </li>
                     <li class="page-scroll">
                         <a href="#footer">聯絡我們</a>
                     </li>
@@ -135,7 +134,7 @@
                             <th class="text-center"><p>內容</p></th>
                         </tr>
                         <tr>
-                            <td><p>2017/3/1 ~ 2017/3/31</p></td>
+                            <td><p>即日起 ~ 2017/3/31</p></td>
                             <td><p>報名日期</p></td>
                             <td><p>繳交報名文件</p></td>
                         </tr>
@@ -234,7 +233,7 @@
                         <table>
                             <tr><td><img src="img/text.png" class="img-responsive"></td></tr>
                             <tr><td><strong><p class="text-center" style="font-size: 22px;margin-top: 10px">文件</p></strong></td></tr>
-                            <tr><td><p style="padding-left: 40px;padding-right: 40px">只有當競賽主辦單位收到，參賽隊伍所在學校系所用印的報名表後，才能獲得參賽資格（報名表如附件）。</p></td></tr>
+                            <tr><td><p style="padding-left: 40px;padding-right: 40px">只有當競賽主辦單位收到，參賽隊伍所在學校系所用印的報名表後，才能獲得參賽資格。</p></td></tr>
                         </table>
                     </div>
                     
@@ -251,6 +250,11 @@
                             <tr><td><p style="padding-left: 40px;padding-right: 40px">提交用印報名表的截止日期以上傳的時間為準，逾期將不再受理。</p></td></tr>
                         </table>
                     </div>
+                </div>
+                <div class="col-md-2 col-md-offset-5" style="margin-top: 30px; margin-bottom: 20px">
+                	<button type="submit" class="btn btn-block">
+							<a href="declare.jsp" style="font-size: 20px">報名入口</a>
+					</button>
                 </div>
             </div>
         </div>
@@ -291,7 +295,7 @@
                             <tr>
                                 <td>
                                     <ol>
-                                        <li><p>每隊至多1名指導老師，須列入每隊報名人數上限。</p></li>
+                                        <li><p>每隊需一名或兩名指導老師，且列入該隊報名人數上限。</p></li>
                                         <li><p>為全國各級公、私立學校專任教師。</p></li>
                                         <li><p>具備參賽作品相關領域專業資格。</p></li>
                                     </ol>

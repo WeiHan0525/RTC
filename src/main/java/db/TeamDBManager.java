@@ -37,16 +37,12 @@ public class TeamDBManager {
 				+ "FifthMember, FifthMemberSchool, FifthMemberDepartment, FifthMemberGrade, "
 				+ "SixthMember, SixthMemberSchool, SixthMemberDepartment, SixthMemberGrade, "
 				+ "FirstTeacher, FirstTeacherSchool, FirstTeacherDepartment, "
-				+ "SecondTeacher, SecondTeacherSchool, SecondTeacherDepartment, secret)  "
+				+ "SecondTeacher, SecondTeacherSchool, SecondTeacherDepartment, Password)  "
 				+ "VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?"
 				+ ", ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 		String query = "SELECT * FROM Team";
 		try {
-			if(CheckaddTeam(team.getEmail())){ //有相同email不給新增
-				return false;
-			}
 			
-			else{
 				preStmt = conn.prepareStatement(sql);
 				preStmt.setString(1, team.getName());
 				preStmt.setString(2, team.getEmail());
@@ -108,7 +104,6 @@ public class TeamDBManager {
 				stmt.close();
 				conn.commit();
 				return true;
-			}
 			
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -129,11 +124,11 @@ public class TeamDBManager {
 	    for (i = 0; i < 8; i++) {
 	      z = (int) ((Math.random() * 7) % 3);
 	 
-	      if (z == 1) { // 放數字
+	      if (z == 1) { // 嚙踝蕭あr
 	        sb.append((int) ((Math.random() * 10) + 48));
-	      } else if (z == 2) { // 放大寫英文
+	      } else if (z == 2) { // 嚙踝蕭j嚙篇嚙稷嚙踝蕭
 	        sb.append((char) (((Math.random() * 26) + 65)));
-	      } else {// 放小寫英文
+	      } else {// 嚙踝蕭p嚙篇嚙稷嚙踝蕭
 	        sb.append(((char) ((Math.random() * 26) + 97)));
 	      }
 	    }
