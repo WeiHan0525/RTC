@@ -74,6 +74,7 @@
                         <div class="dropdown">
                             <button type="button" class="btn btn-lg btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> 報名 </button>
                             <ul class="dropdown-menu" role="menu">
+                            	<li> <a href="signUp.jsp">報名入口 </a></li>
                                 <li class="page-scroll"> <a href="#signUp">大賽報名</a> </li>
                                 <li class="page-scroll"> <a href="#require">參賽要求</a> </li>
                                 <li class="page-scroll"> <a href="#product">作品要求</a> </li>

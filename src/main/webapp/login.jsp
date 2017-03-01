@@ -69,15 +69,15 @@
 	</nav>
 
 	<div class="container">
-		<form class="form-signin" method="post" action="login">
+		<form class="form-signin" method="post" action="loginAction.jsp">
 			<div class="col-md-4 col-md-offset-4" style="padding-top:100px">
 				<div class="panel-body">
 					<div class="form-group">
-						<label for="InputEmail">電子郵件</label> <input type="email"
-							class="form-control" name="InputEmail" placeholder="輸入電子郵件"
-							requried autofocus> <label for="eInputPassword">密碼</label>
-						<input type="password" class="form-control" name="InputPassword"
-							placeholder="輸入密碼" requried>
+						<label for="InputEmail">電子郵件</label> 
+						<input type="email" class="form-control" name="InputEmail" placeholder="輸入電子郵件"
+							requried autofocus> 
+						<label for="eInputPassword">密碼</label>
+						<input type="password" class="form-control" name="InputPassword" placeholder="輸入密碼" requried>
 
 						<div class="checkbox">
 							<label> <input type="checkbox"> 記住我
@@ -86,7 +86,9 @@
 					</div>
 
 					<div class="form-group">
-						<button type="submit" class="btn btn-success btn-block">登入</button>
+						<div class="col-md-4 col-md-offset-4">
+							<button type="submit" class="btn btn-login btn-block">登入</button>
+						</div>
 					</div>
 				</div>
 			</div>

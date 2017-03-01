@@ -9,6 +9,8 @@ public class Team implements Serializable {
 	private String Name;
 	
 	private String Email;
+	
+	private String Password;
 
 	//******************************
 	
@@ -23,14 +25,6 @@ public class Team implements Serializable {
 	private String LeaderGrade;
 
 	//******************************
-	
-	public String getPhone() {
-		return Phone;
-	}
-
-	public void setPhone(String phone) {
-		Phone = phone;
-	}
 
 	private String FirstMember;
 	
@@ -131,6 +125,14 @@ public class Team implements Serializable {
 	public void setEmail(String Email) {
 		this.Email = Email;
 	}
+
+	public String getPassword(){
+		return Password;
+	}
+	
+	public void setPassword(String password) {
+		Password = password;
+	}
 	
 	//******************************************
 
@@ -140,6 +142,14 @@ public class Team implements Serializable {
 
 	public void setLeader(String leader) {
 		Leader = leader;
+	}
+
+	public String getPhone() {
+		return Phone;
+	}
+
+	public void setPhone(String phone) {
+		Phone = phone;
 	}
 
 	public String getLeaderSchool() {
