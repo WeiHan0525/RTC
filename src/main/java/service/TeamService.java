@@ -25,74 +25,12 @@ public class TeamService {
 	@Path("signUp")
 	@Consumes(MediaType.APPLICATION_FORM_URLENCODED)
 	@Produces(MediaType.APPLICATION_JSON)
-	public Response signUp(
-			@FormParam("Name") String Name, @FormParam("Email") String Email,
-			@FormParam("Leader") String Leader, @FormParam("Phone") String Phone, 
-			@FormParam("LeaderSchool") String LeaderSchool, @FormParam("LeaderDepartment") String LeaderDepartment,
-			@FormParam("LeaderGrade") String LraderGrade, 
-			@FormParam("FirstMember") String FirstMember, @FormParam("FirstMemberSchool") String FirstMemberSchool,
-			@FormParam("FirstMemberDepartment") String FirstMemberDepartment, @FormParam("FirstMemberGrade") String FirstMemberGrade,
-			@FormParam("SecondMember") String SecondMember, @FormParam("SecondMemberSchool") String SecondMemberSchool,
-			@FormParam("SecondMemberDepartment") String SecondMemberDepartment, @FormParam("SecondMemberGrade") String SecondMemberGrade,
-			@FormParam("ThirdMember") String ThirdMember, @FormParam("ThirdMemberSchool") String ThirdMemberSchool,
-			@FormParam("ThirdMemberDepartment") String ThirdMemberDepartment, @FormParam("ThirdMemberGrade") String ThirdMemberGrade,
-			@FormParam("FourthMember") String FourthMember, @FormParam("FourthMemberSchool") String FourthMemberSchool,
-			@FormParam("FourthMemberDepartment") String FourthMemberDepartment, @FormParam("FourthMemberGrade") String FourthMemberGrade,
-			@FormParam("FifthMember") String FifthMember, @FormParam("FifthMemberSchool") String FifthMemberSchool,
-			@FormParam("FifthMemberDepartment") String FifthMemberDepartment, @FormParam("FifthMemberGrade") String FifthMemberGrade,
-			@FormParam("SixthMember") String SixthMember, @FormParam("SixthMemberSchool") String SixthMemberSchool,
-			@FormParam("SixthMemberDepartment") String SixthMemberDepartment, @FormParam("SixthMemberGrade") String SixthMemberGrade,
-			@FormParam("FirstTeacher") String FirstTeacher, @FormParam("FirstTeacherSchool") String FirstTeacherSchool,
-			@FormParam("FirstTeacherDepartment") String FirstTeacherDepartment,
-			@FormParam("SecondTeacher") String SecondTeacher, @FormParam("SecondTeacherSchool") String SecondTeacherSchool,
-			@FormParam("SecondTeacherDepartment") String SecondTeacherDepartment) throws URISyntaxException {
+	public Response signUp(@FormParam("Leader") String Leader, @FormParam("Phone") String Phone, @FormParam("Email") String Email) throws URISyntaxException {
 		Team team = new Team();
-		team.setName(Name);
-		team.setEmail(Email);
 		
 		team.setLeader(Leader);
 		team.setPhone(Phone);
-		team.setLeaderSchool(LeaderSchool);
-		team.setLeaderDepartment(LeaderDepartment);
-		team.setLeaderGrade(LraderGrade);
-		
-		team.setFirstMember(FirstMember);
-		team.setFirstMemberSchool(FirstMemberSchool);
-		team.setFirstMemberDepartment(FirstMemberDepartment);
-		team.setFirstMemberGrade(FirstMemberGrade);
-		
-		team.setSecondMember(SecondMember);
-		team.setSecondMemberSchool(SecondMemberSchool);
-		team.setSecondMemberDepartment(SecondMemberDepartment);
-		team.setSecondMemberGrade(SecondMemberGrade);
-		
-		team.setThirdMember(ThirdMember);
-		team.setThirdMemberSchool(ThirdMemberSchool);
-		team.setThirdMemberDepartment(ThirdMemberDepartment);
-		team.setThirdMemberGrade(ThirdMemberGrade);
-		
-		team.setFourthMember(FourthMember);
-		team.setFourthMemberSchool(FourthMemberSchool);
-		team.setFourthMemberDepartment(FourthMemberDepartment);
-		team.setFourthMemberGrade(FourthMemberGrade);
-		
-		team.setFifthMember(FifthMember);
-		team.setFifthMemberSchool(FifthMemberSchool);
-		team.setFifthMemberDepartment(FifthMemberDepartment);
-		team.setFifthMemberGrade(FifthMemberGrade);
-		
-		team.setSixthMember(SixthMember);
-		team.setSixthMemberSchool(SixthMemberSchool);
-		team.setSixthMemberDepartment(SixthMemberDepartment);
-		team.setSixthMemberGrade(SixthMemberGrade);
-		
-		team.setFirstTeacher(FirstTeacher);
-		team.setFirstTeacherSchool(FirstTeacherSchool);
-		team.setFirstTeacherDepartment(FirstTeacherDepartment);
-		
-		team.setSecondTeacher(SecondTeacher);
-		team.setSecondTeacherSchool(SecondTeacherSchool);
-		team.setSecondTeacherDepartment(SecondTeacherDepartment);
+		team.setEmail(Email);
 		
 		dbManager.addTeam(team);
 		
