@@ -1,17 +1,21 @@
 package service;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.net.URISyntaxException;
-import java.util.List;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.FormParam;
-import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+
+import org.glassfish.jersey.media.multipart.FormDataContentDisposition;
+import org.glassfish.jersey.media.multipart.FormDataParam;
 
 import data.Team;
 import db.TeamDBManager;
@@ -27,14 +31,22 @@ public class TeamService {
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response signUp(@FormParam("Leader") String Leader, @FormParam("Phone") String Phone, @FormParam("Email") String Email) throws URISyntaxException {
 		Team team = new Team();
+		boolean check;
 		
 		team.setLeader(Leader);
 		team.setPhone(Phone);
 		team.setEmail(Email);
+
+		check = dbManager.addTeam(team);
 		
-		dbManager.addTeam(team);
+		if(check){
+			dbManager.sendEmail(Email);
+			
+			java.net.URI location = new java.net.URI("../signUpReview.jsp");
+			return Response.temporaryRedirect(location).build();
+		}
 		
-		java.net.URI location = new java.net.URI("../signUpReview.jsp");
+		java.net.URI location = new java.net.URI("../signUpFalse.jsp");
 		return Response.temporaryRedirect(location).build();
 	}
 	
@@ -49,6 +61,42 @@ public class TeamService {
 		
 		java.net.URI location = new java.net.URI("../teamSystem.jsp");
 		return Response.temporaryRedirect(location).build();		
+	}
+	
+	@POST
+	@Path("upload")
+	@Consumes(MediaType.MULTIPART_FORM_DATA)
+	public Response upload(@FormDataParam("file") InputStream uploadedInputStream,
+			@FormDataParam("file") FormDataContentDisposition fileDetail) throws URISyntaxException {
+		String tempDir = System.getProperty("java.io.tmpdir");
+
+		String uploadDir = tempDir + "uploads/";
+
+		File fUploadDir = new File(uploadDir);
+		if (!fUploadDir.exists()) {
+			fUploadDir.mkdirs();
+		}
+		String fileName = fileDetail.getFileName();
+		System.out.println("fileName :" + fileName);
+		String uploadedFileLocation = uploadDir + fileName;
+		System.out.println("File successfully uploaded to : " + uploadedFileLocation);
+
+		try {
+			FileOutputStream out = new FileOutputStream(new File(uploadedFileLocation));
+			int read = 0;
+			byte[] bytes = new byte[1024];
+			out = new FileOutputStream(new File(uploadedFileLocation));
+			while ((read = uploadedInputStream.read(bytes)) != -1) {
+				out.write(bytes, 0, read);
+			}
+			out.flush();
+			out.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		System.out.println("fileName :" + fileName);
+		java.net.URI location = new java.net.URI("../uploadSuccess.jsp");
+		return Response.temporaryRedirect(location).build();
 	}
 
 //

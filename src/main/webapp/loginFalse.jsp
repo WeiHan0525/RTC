@@ -69,7 +69,7 @@
 	</nav>
 
 	<section style="padding-top: 100px">
-		<div class="container" style="padding-bottom: 100px">
+		<div class="container" style="padding-bottom: 400px">
 			<h3>帳號或密碼錯誤</h3>
 			<div class="text-center">
 			<a href="index.jsp" style="color: #333">

@@ -110,7 +110,7 @@
     <header>
         <div class="container">
             <div class="row">
-                    <img class="img-responsive" src="img/header.png">
+                    <img class="img-responsive" src="img/photo.png">
             </div>
         </div>
     </header>
@@ -134,27 +134,38 @@
                             <th class="text-center"><p>內容</p></th>
                         </tr>
                         <tr>
-                            <td><p>即日起 ~ 2017/3/31</p></td>
+                            <td><p>2017/3/3 ~ 2017/4/7</p></td>
                             <td><p>報名日期</p></td>
                             <td><p>繳交報名文件</p></td>
                         </tr>
                         <tr>
-                            <td><p>2017/4/1 ~ 2017/4/30</p></td>
-                            <td><p>企劃案提交</p></td>
+                            <td><p>2017/4/8 ~ 2017/5/8</p></td>
+                            <td><p>書面企劃案提交</p></td>
                             <td><p>參賽作品交件</p></td>
                         </tr>
                         <tr>
-                            <td><p>2017/5/1 ~ 2017/5/15</p></td>
+                            <td><p>2017/5/9 ~ 2017/5/22</p></td>
                             <td><p>初賽評選</p></td>
-                            <td><p>評選出30隊作品進入決賽</p></td>
-                        </tr><tr>
-                            <td><p>2017/5/15 ~ 2017/6/30</p></td>
+                            <td><p>評選出20隊作品進入決賽</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>2017/5/24</p></td>
+                            <td><p>初選結果公布</p></td>
+                            <td><p>初選結果公布</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>2017/5/27</p></td>
+                            <td><p>交流討論會</p></td>
+                            <td><p>於逢甲⼤學進⾏Workshop交流討論會，凡進⼊決賽的參賽隊伍皆可⾃由參加。 </p></td>
+                        </tr>
+                        <tr>
+                            <td><p>2017/6/1 ~ 2017/6/30</p></td>
                             <td><p>實作APP作品提交</p></td>
-                            <td><p>進入決賽的參賽隊伍對參賽作品進行修改提交</p></td>
+                            <td><p>進⼊決賽的參賽隊伍對參賽作品進⾏修改提交，決賽現場的提案簡報檔、<br>SOURCE CODE、APP宣傳資料，以及APP操作過程的影⽚檔。</p></td>
                         </tr><tr>
-                            <td><p>2017/7上旬</p></td>
+                            <td><p>2017/7/8</p></td>
                             <td><p>決賽現場</p></td>
-                            <td><p>於逢甲大學進行決賽，現場演示、答辯及評選</p></td>
+                            <td><p>於逢甲⼤學進⾏決賽，現場展演、答辯及評選，<br>現場必須使⽤Apple硬體為載具進⾏展演，設備需⾃⾏攜帶。</p></td>
                         </tr>
                     </table>
                 </div>
@@ -447,7 +458,7 @@
                         <h3>主辦單位</h3>
                         <ul class="list-inline">
                             <li>
-                                <p><a href="http://www.fcu.edu.tw">逢甲大學Apple授權區域教育培訓中心</a></p>
+                                <p><a href="index.jsp">Apple RTC (Taiwan) 授權區域培訓中⼼-逢甲⼤學</a></p>
                             </li>
                             <li>
                                 <p><a href="http://www.straighta.com.tw/">晶盛科技股份有限公司</a></p>

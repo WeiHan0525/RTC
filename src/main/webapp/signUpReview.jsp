@@ -69,7 +69,7 @@
 	</nav>
 
 	<section style="padding-top: 100px">
-		<div class="container" style="padding-bottom: 100px">
+		<div class="container text-center" style="padding-bottom: 400px">
 			<h3>請至聯絡信箱收取驗證信</h3>
 		</div>
 	</section>
@@ -83,9 +83,7 @@
 					<h3>主辦單位</h3>
 					<ul class="list-inline">
 						<li>
-							<p>
-								<a href="http://www.fcu.edu.tw">逢甲大學Apple授權區域教育培訓中心</a>
-							</p>
+							<p><a href="index.jsp">Apple RTC (Taiwan) 授權區域培訓中⼼-逢甲⼤學</a></p>
 						</li>
 						<li>
 							<p>

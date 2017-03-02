@@ -91,9 +91,7 @@
 						<li><p>凡參加報名者，視為已閱讀並完全同意遵守本競賽之一切規定。</p></li>
 					</ol>
 					<div class="col-md-2 col-md-offset-5" style="margin-top: 30px;margin-bottom: 30px">
-						<button type="submit" class="btn btn-block">
-							<a href="signUp.jsp">確認報名</a>
-						</button>
+							<a href="signUp.jsp" class="btn btn-block">確認報名</a>
 					</div>
 
 				</div>

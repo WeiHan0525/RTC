@@ -91,9 +91,7 @@
 						<li><p>凡參加報名者，視為已閱讀並完全同意遵守本競賽之一切規定。</p></li>
 					</ol>
 					<div class="col-md-2 col-md-offset-5" style="margin-top: 30px;margin-bottom: 30px">
-						<button type="submit" class="btn btn-block">
-							<a href="signUp.jsp">確認報名</a>
-						</button>
+							<a href="signUp.jsp" class="btn btn-block">確認報名</a>
 					</div>
 
 				</div>
@@ -110,7 +108,7 @@
                         <h3>主辦單位</h3>
                         <ul class="list-inline">
                             <li>
-                                <p><a href="http://www.fcu.edu.tw">逢甲大學Apple授權區域教育培訓中心</a></p>
+                                <p><a href="index.jsp">Apple RTC (Taiwan) 授權區域培訓中⼼-逢甲⼤學</a></p>
                             </li>
                             <li>
                                 <p><a href="http://www.straighta.com.tw/">晶盛科技股份有限公司</a></p>
