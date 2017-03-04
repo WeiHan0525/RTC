@@ -85,6 +85,7 @@
 						<input id="Email" maxlength="50" name="Email" size="50" type="email" placeholder="e.g., example@example.com" required>
 						<p style="border: none; color: #760000">※信箱將做為<u>登入帳號</u>且不得重複
 					</li>
+					<br>
 					<li>
 						<img class="img-responsive" id="image" width="150" border="0"  onclick="refresh()" src="newImage.jsp"/>
 						<span>(點擊圖片更換)</span><br>

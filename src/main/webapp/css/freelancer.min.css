@@ -6,7 +6,7 @@
 /*body{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;overflow-x:hidden}*/
 body{font-family:"MyriadPro","sourcehansans-tc","Microsoft JhengHei"overflow-x:hidden}
 
-p{font-size:16px;font-family: "MyriadPro","sourcehansans-tc-light","Microsoft JhengHei"}
+p{font-size:16px;font-family: "MyriadPro","sourcehansans-tc-light","Microsoft JhengHei"; margin: 5px 0 0 5px}
 p.small{font-size:16px}
 
 /*a,a.active,a:active,a:focus,a:hover{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif; color:#18BC9C;outline:0}*/
@@ -89,7 +89,8 @@ section.success{background:#18BC9C;color:#fff}
 #signUp img{width: 140px;height: 140px;margin: auto}
 #signUp p{line-height: 30px}
 #signUp table{border:none;margin: auto;padding: 5px}
-#signUp button{background-color: #565657; border-radius: 8px; border-color: #565657}
+#signUp a{font-size: 20px; background-color: #565657; border-radius: 8px; border-color: #565657}
+#signUp a:hover{font-size: 20px; background-color: #565657; border-radius: 8px; border-color: #565657}
 
 #upload table, #upload td{border: 1px solid black;padding: 5px;font-size: 16px;position:relative}
 #upload th{border: 1px solid black;padding: 5px;font-size: 18px;position:relative}
@@ -105,6 +106,8 @@ section.success{background:#18BC9C;color:#fff}
 #sheet button{background-color: #368491; color: white; border-radius: 8px; border-color: #368491}
 .btn-login{color: #368491}
 .btn-login:hover{background-color: #368491; border-color: #368491; border-radius: 8px; color: white}
+
+/*#schedule p, #award p, #require p, #product p, */
 
 #portfolio .portfolio-item{margin:0 0 15px;right:0}
 #portfolio .portfolio-item .portfolio-link{display:block;position:relative;max-width:400px;margin:0 auto}

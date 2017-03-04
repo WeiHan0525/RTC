@@ -285,9 +285,7 @@
                     </div>
                 </div>
                 <div class="col-md-2 col-md-offset-5" style="margin-top: 30px; margin-bottom: 20px">
-                	<button type="submit" class="btn btn-block">
-							<a href="declare.jsp" style="font-size: 20px">報名入口</a>
-					</button>
+					<a href="declare.jsp" class="btn btn-block">報名入口</a>
                 </div>
             </div>
         </div>
