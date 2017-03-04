@@ -83,12 +83,12 @@
                         <tr>
                             <td><p>2017/3/3 ~ 2017/4/7</p></td>
                             <td><p>報名日期</p></td>
-                            <td><p>繳交報名文件<a href="">(附件一)</a></p></td>
+                            <td><p>繳交報名文件</p></td>
                         </tr>
                         <tr>
                             <td><p>2017/4/8 ~ 2017/5/8</p></td>
                             <td><p>書面企劃案提交</p></td>
-                            <td><p>參賽作品交件<a href="">(附件二)</a></p></td>
+                            <td><p>參賽作品交件</p></td>
                         </tr>
                         <tr>
                             <td><p>2017/5/9 ~ 2017/5/22</p></td>
@@ -114,7 +114,9 @@
                             <td><p>決賽現場</p></td>
                             <td><p>於逢甲⼤學進⾏決賽，現場展演、答辯及評選，<br>現場必須使⽤Apple硬體為載具進⾏展演，設備需⾃⾏攜帶。</p></td>
                         </tr>
-                    </table>
+            </table>
+            <br>
+            <a href="附件.pdf" class="btn btn-default" target = "_blank">附件下載</a>
 		</div>
 		<div class="col-md-2 col-md-offset-5" style="margin-top: 50px">
 			<form method="post" action="webapi/team/upload"

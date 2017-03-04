@@ -89,13 +89,12 @@ section.success{background:#18BC9C;color:#fff}
 #signUp img{width: 140px;height: 140px;margin: auto}
 #signUp p{line-height: 30px}
 #signUp table{border:none;margin: auto;padding: 5px}
-#signUp .arrow{width: 64px;height: 64px}
 #signUp button{background-color: #565657; border-radius: 8px; border-color: #565657}
 
 #upload table, #upload td{border: 1px solid black;padding: 5px;font-size: 16px;position:relative}
 #upload th{border: 1px solid black;padding: 5px;font-size: 18px;position:relative}
 #upload button{background-color: #368491; color: white;border-radius: 8px; border-color: #368491}
-#upload a{color: black}
+#upload a{background-color: #368491; color: white;border-radius: 8px; border-color: #368491}
 
 #sheet h4{font-size: 1.4em; padding: 8px 0 8px 15px; margin: 25px 0 15px 0; border-left: solid 8px #f7e39b}
 #sheet ul{list-style-type: none}

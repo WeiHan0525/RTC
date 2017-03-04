@@ -109,12 +109,13 @@ public class TeamDBManager {
 			String pwd = getTeam(Email).getPassword();
 //			String url = "140.134.26.64:7870/2017/verify.jsp";
 			String url = "140.134.26.64:7870/2017/teamSystem.jsp";
-			String content = "您的帳號：" + Email + "\n您的密碼：" + pwd + "\n請透過網址登入：" + url;
-			Message message = new MimeMessage(session);
+			String content = "您的帳號：" + Email + "<br>您的密碼：" + pwd + "<br>請透過網址登入：" + url;
+//			Message message = new MimeMessage(session);
+			MimeMessage message = new MimeMessage(session);
 			message.setFrom(new InternetAddress("rtc@mail.fcu.edu.tw"));
 			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(Email));
-			message.setSubject("2017APP創新應用競賽報名驗證");
-			message.setText(content);
+			message.setSubject("2017APP創新應用競賽報名驗證", "utf-8");
+			message.setContent(content, "text/html;charset=utf-8");
 
 			Transport.send(message);
 
