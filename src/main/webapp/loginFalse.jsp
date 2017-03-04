@@ -120,11 +120,11 @@
 					</p>
 				</div>
 				<div class="footer-col col-md-4">
-					<h3>聯絡我們</h3>
-					<p>聯繫人員：</p>
-					<p>聯繫地址：</p>
-					<p>聯繫電話：（02）6608-1000</p>
-				</div>
+                        <h3>聯絡我們</h3>
+                        <p>聯繫信箱：rtc@mail.fcu.edu.tw</p>
+                        <p>聯繫地址：台中市西屯區⽂華路100號 逢甲⼤學 Apple RTC 授權區域培訓中⼼ </p>
+                        <p>聯繫電話：Straight A客服專線（02）6608-1000</p>
+                </div>
 			</div>
 		</div>
 	</div>

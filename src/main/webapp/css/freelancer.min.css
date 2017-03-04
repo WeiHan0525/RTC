@@ -95,6 +95,7 @@ section.success{background:#18BC9C;color:#fff}
 #upload table, #upload td{border: 1px solid black;padding: 5px;font-size: 16px;position:relative}
 #upload th{border: 1px solid black;padding: 5px;font-size: 18px;position:relative}
 #upload button{background-color: #368491; color: white;border-radius: 8px; border-color: #368491}
+#upload a{color: black}
 
 #sheet h4{font-size: 1.4em; padding: 8px 0 8px 15px; margin: 25px 0 15px 0; border-left: solid 8px #f7e39b}
 #sheet ul{list-style-type: none}
