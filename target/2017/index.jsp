@@ -63,7 +63,7 @@
                         <div class="dropdown">
                             <button type="button" class="btn btn-lg btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> 競賽 </button>
                             <ul class="dropdown-menu" role="menu">
-<!--                                <li class="page-scroll"> <a href="#portfolio">競賽說明</a> </li>-->
+<!--                            <li class="page-scroll"> <a href="#portfolio">競賽說明</a> </li>-->
                                 <li class="page-scroll"> <a href="#schedule">競賽日程</a> </li>
                                 <li class="page-scroll"> <a href="#award">得獎者獎項</a> </li>
                             </ul>
@@ -88,12 +88,8 @@
                                 <li class="page-scroll"> <a href="#selection">評審及評獎</a> </li>
                                 <li class="page-scroll"> <a href="#review">競賽評審</a> </li>
                             </ul>
-                    </div>
-<!--
-                    <li class="page-scroll">
-                        <a type="button" href="#about">主辦及協辦</a>
+                    	</div>
                     </li>
--->
                     <li class="page-scroll"> <a href="declare.jsp">報名入口</a> </li>
                     <li class="page-scroll">
                         <a href="#footer">聯絡我們</a>
@@ -126,7 +122,7 @@
             </div>
             <div class="row">
                 <!--<div class="col-lg-8 col-lg-offset-2">-->
-                    <div class="col-lg-10 col-lg-offset-1">
+                <div class="col-lg-10 col-lg-offset-1">
                     <table style="width: 100%;"  class="text-center">
                         <tr>
                             <th class="text-center"><p>時間</p></th>
@@ -134,27 +130,38 @@
                             <th class="text-center"><p>內容</p></th>
                         </tr>
                         <tr>
-                            <td><p>即日起 ~ 2017/3/31</p></td>
+                            <td><p>2017/3/3 ~ 2017/4/7</p></td>
                             <td><p>報名日期</p></td>
                             <td><p>繳交報名文件</p></td>
                         </tr>
                         <tr>
-                            <td><p>2017/4/1 ~ 2017/4/30</p></td>
-                            <td><p>企劃案提交</p></td>
+                            <td><p>2017/4/8 ~ 2017/5/8</p></td>
+                            <td><p>書面企劃案提交</p></td>
                             <td><p>參賽作品交件</p></td>
                         </tr>
                         <tr>
-                            <td><p>2017/5/1 ~ 2017/5/15</p></td>
+                            <td><p>2017/5/9 ~ 2017/5/22</p></td>
                             <td><p>初賽評選</p></td>
-                            <td><p>評選出30隊作品進入決賽</p></td>
-                        </tr><tr>
-                            <td><p>2017/5/15 ~ 2017/6/30</p></td>
+                            <td><p>評選出20隊作品進入決賽</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>2017/5/24</p></td>
+                            <td><p>初選結果公布</p></td>
+                            <td><p>初選結果公布</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>2017/5/27</p></td>
+                            <td><p>交流討論會</p></td>
+                            <td><p>於逢甲⼤學進⾏Workshop交流討論會，凡進⼊決賽的參賽隊伍皆可⾃由參加。 </p></td>
+                        </tr>
+                        <tr>
+                            <td><p>2017/6/1 ~ 2017/6/30</p></td>
                             <td><p>實作APP作品提交</p></td>
-                            <td><p>進入決賽的參賽隊伍對參賽作品進行修改提交</p></td>
+                            <td><p>進⼊決賽的參賽隊伍對參賽作品進⾏修改提交，決賽現場的提案簡報檔、<br>SOURCE CODE、APP宣傳資料，以及APP操作過程的影⽚檔。</p></td>
                         </tr><tr>
-                            <td><p>2017/7上旬</p></td>
+                            <td><p>2017/7/8</p></td>
                             <td><p>決賽現場</p></td>
-                            <td><p>於逢甲大學進行決賽，現場演示、答辯及評選</p></td>
+                            <td><p>於逢甲⼤學進⾏決賽，現場展演、答辯及評選，<br>現場必須使⽤Apple硬體為載具進⾏展演，設備需⾃⾏攜帶。</p></td>
                         </tr>
                     </table>
                 </div>
@@ -172,8 +179,8 @@
                 </div>
             </div>
             <div class="row">
-               <div class="col-lg-10 col-lg-offset-1">
-                    <table style="width: 100%"  class="text-center">
+               <div class="col-lg-10 col-lg-offset-2">
+                    <table style="width: 80%"  class="text-center">
                         <tr>
                             <th class="text-center"><p>名次</p></th>
                             <th class="text-center"><p>隊數</p></th>
@@ -182,23 +189,49 @@
                         <tr>
                             <td><p>特獎</p></td>
                             <td><p>1隊</p></td>
-                            <td><p>Apple商品</p></td>
+                            <td class="col-md-8">
+                            	<p>MacBook Pro 具備 Touch Bar和Touch ID 價值$57,900乙台</p>
+                            	<p>指導⽼師獎⾦$30,000</p>
+                            </td>
                         </tr>
                         <tr>
-                            <td><p>一獎～三獎</p></td>
-                            <td><p>各1隊</p></td>
-                            <td><p>Apple或智能商品視贊助廠商提供</p></td>
-                        </tr>
-                        <tr>
-                            <td><p>佳作</p></td>
+                            <td><p>一獎</p></td>
                             <td><p>1隊</p></td>
-                            <td><p>Apple或智能商品視贊助廠商提供</p></td>
+                            <td class="col-md-8">
+                            	<p>iPhone 7 Plus 256GB 價值$36,900⼄台</p>
+                            	<p>指導⽼師獎⾦$20,000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><p>二獎</p></td>
+                            <td><p>1隊</p></td>
+                            <td class="col-md-8">
+                            	<p>iPad Pro 9.7 吋256GB 價值$25,900⼄台</p>
+                            	<p>指導⽼師獎⾦$10,000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><p>三獎</p></td>
+                            <td><p>1隊</p></td>
+                            <td class="col-md-8">
+                            	<p>iPad Air 2 128GB 價值$16,900⼄台</p>
+                            	<p>指導⽼師獎⾦$8,000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><p>佳獎</p></td>
+                            <td><p>1隊</p></td>
+                            <td class="col-md-8">
+                            	<p>iPad mini 4 32GB 價值$13,900 ⼄台</p>
+                            	<p>指導⽼師獎⾦$6,000</p>
+                            </td>
                         </tr>
                     </table>
                     <br>
-                    <p>決賽證明：經主辦單位審核進入決賽之隊伍，隊伍成員每人皆可獲得決賽證明書乙份。</p>
-                    <p>參賽證明：經主辦單位審核進入初賽之隊伍，隊伍成員每人皆可獲得參賽證明書乙份。</p>
-                    <p style="color: #760000"><strong>※ 評審委員遴選小組得視參賽作品之品質優劣，決定得獎隊伍是否從缺。</strong></p>
+                    <p>以上得獎者將由主辦單位贊助機票、住宿，參加浙江⼤學舉辦之⼤中華區「2017年 APP 移動應⽤創新賽」總決賽。</p>
+                    <p>決賽證明：經主辦單位審核進⼊決賽之20名(暫定)隊伍，隊伍成員每⼈皆可獲得決賽證明書⼄份。</p>
+                    <p>參賽證明：經主辦單位審核進⼊初賽並完繳交企劃書之隊伍，隊伍成員每⼈皆可獲得參賽證明書⼄份。</p>
+                    <!-- <p style="color: #760000"><strong>※ 評審委員遴選小組得視參賽作品之品質優劣，決定得獎隊伍是否從缺。</strong></p> -->
                 </div>
             </div>
         </div>
@@ -219,35 +252,35 @@
                         <table>
                             <tr><td><img src="img/letter.png" class="img-responsive"></td></tr>
                             <tr><td><strong><p class="text-center" style="font-size: 22px;margin-top: 10px">報名</p></strong></td></tr>
-                            <tr><td><p style="padding-left: 40px;padding-right: 40px">參賽隊伍通過大賽網站報名註冊，同時須提交用印報名表，每支參賽隊伍，含指導老師，最多不得超過9名成員。</p></td></tr>
-                            </table>
+                            <tr>
+                            	<td>
+                            		<p style="padding-left: 40px;padding-right: 40px">參賽隊伍通過⼤賽網站報名註冊，同時須提交⽤印報名表，每⽀參賽隊伍，含指導⽼師，最多不得超過9名成員。</p>
+                            	</td>
+                            </tr>
+                        </table>
                     </div>
-                            
-<!--
-                    <div class="col-lg-2">
-                        <img src="img/arrow.png" class="arrow">
-                    </div>
--->
                     
                     <div class="col-lg-4">   
                         <table>
                             <tr><td><img src="img/text.png" class="img-responsive"></td></tr>
                             <tr><td><strong><p class="text-center" style="font-size: 22px;margin-top: 10px">文件</p></strong></td></tr>
-                            <tr><td><p style="padding-left: 40px;padding-right: 40px">只有當競賽主辦單位收到，參賽隊伍所在學校系所用印的報名表後，才能獲得參賽資格。</p></td></tr>
+                            <tr>
+                            	<td>
+                            		<p style="padding-left: 40px;padding-right: 40px">只有當競賽主辦單位收到，參賽隊伍所在學校系所⽤印的報名表後，才能獲得參賽資格</p>
+                            	</td>
+                            </tr>
                         </table>
                     </div>
-                    
-<!--
-                    <div class="col-lg-1">
-                        <img src="img/arrow.png" class="arrow">
-                    </div>
--->
                     
                     <div class="col-lg-4">    
                         <table>
                             <tr><td><img src="img/clock.png" class="img-responsive"></td></tr>
                             <tr><td><strong><p class="text-center" style="font-size: 22px;margin-top: 10px">截止</p></strong></td></tr>
-                            <tr><td><p style="padding-left: 40px;padding-right: 40px">提交用印報名表的截止日期以上傳的時間為準，逾期將不再受理。</p></td></tr>
+                            <tr>
+                            	<td>
+                            		<p style="padding-left: 40px;padding-right: 40px">提交⽤印報名表的截⽌⽇期以上傳的時間為準，逾期將不再受理。</p>
+                            	</td>
+                            </tr>
                         </table>
                     </div>
                 </div>
@@ -279,9 +312,9 @@
                             <tr>
                                 <td>
                                     <ol>
-                                        <li><p>參賽者必須是大專院校的在學學生，包括大專生、碩士和博士生 (含港澳和海外學生)。</p></li>
-                                        <li><p>學生報名以小組為單位，每組成員含指導老師不得超過9人。</p></li>
-                                        <li><p>每隊均需推派隊長1名，代表該隊負責比賽聯繫、接洽入圍、得獎權利義務之一切相關事宜。</p></li>
+                                        <li><p>參賽者必須是台灣的⼤專院校的在學學⽣，包括⼤專⽣、碩⼠和博⼠⽣。</p></li>
+                                        <li><p>學⽣報名以⼩組為單位，每組成員含指導⽼師不得超過9⼈。</p></li>
+                                        <li><p>每隊均需推派隊⾧1名，代表該隊負責⽐賽聯繫、接洽⼊圍、得獎權利義務之⼀切相關事宜。</p></li>
                                     </ol>
                                 </td>
                             </tr>
@@ -295,9 +328,8 @@
                             <tr>
                                 <td>
                                     <ol>
-                                        <li><p>每隊需一名或兩名指導老師，且列入該隊報名人數上限。</p></li>
-                                        <li><p>為全國各級公、私立學校專任教師。</p></li>
-                                        <li><p>具備參賽作品相關領域專業資格。</p></li>
+                                        <li><p>每隊⾄多2名指導⽼師，須列⼊每隊報名⼈數上限。</p></li>
+                                        <li><p>須為⼤專院校教師。</p></li>
                                     </ol>
                                 </td>
                             </tr>
@@ -311,10 +343,10 @@
                             <tr>
                                 <td>
                                     <ol>
-                                        <li><p>團隊成員於報名截止日後，不得更換。</p></li>
-                                        <li><p>參賽者必須是蘋果註冊開發者 ( Registered Apple Developer，可在蘋果網站免費註冊 ) 。</p></li>
+                                        <li><p>團隊成員於報名截⽌⽇後，不得更換。</p></li>
+                                        <li><p>每⼀隊伍⾄少要有⼀位參賽者必須是蘋果註冊開發者 (Registered Apple Developer，請⾄蘋果網站註冊 )。</p></li>
                                         <li><p>參賽者需要如實提供參賽報名表需要的資料以作備查。</p></li>
-                                        <li><p style="color: #760000"><strong>決賽所選出隊伍將由主辦單位贊助機票、住宿，參加「2017年中國高校計算機大賽 移動應用創新賽」之決賽，出賽時每隊限1名指導老師、3名學生出席，並須配合繳交此活動相關資料。</strong></p></li>
+                                        <li><p style="color: #760000"><strong>決賽所選出隊伍，將由主辦單位贊助機票、住宿，有義務參加8⽉浙江⼤學舉辦之⼤中華區「2017年 APP 移動應⽤創新賽」總決賽，每隊限四位名額，包含指導⽼師⼀名，三位學⽣，如無法參加者，將取消名次與獎項，由下⼀名隊伍遞補，出賽時須配合繳交此活動相關資料。</strong></p></li>
                                     </ol>
                                 </td>
                             </tr>
@@ -337,12 +369,12 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1">
                     <ol>
-                        <li><p>本次大賽參賽作品須為具有一定功能的應用程式，該應用程式應為於iOS / MacOS / WatchOS / TVOS系統設計開發，並以蘋果公司的產品及開發工具為基礎。鼓勵參賽隊伍下載Xcode工具以及使用Swift 3語言進行開發。</p></li>
-                        <li><p>作品主題須緊扣競賽推薦的應用領域，及社會關注的議題，包括工業、農業、健康醫療、環境保護、教育、養老、行政管理、安全及大數據應用等，恕不受理遊戲類領域作品報名。參賽者可自由命名，自行蒐集，獲得相關數據，提供解決方案並能在移動裝置上實際運行，由專家評審進行排名。參賽隊伍要在上傳參賽作品時，各參賽隊需按第八點競賽文件的要求，提交參賽作品相關說明資料。</p></li>
-                        <li><p>企劃案提交截止日期之前，各參賽隊伍可隨時修改、優化、更新已提交的競賽文件資料。</p></li>
-                        <li><p>首次提交參賽作品時，作品形式包括APP簡介、APP程式流程圖、宣傳物、影片介紹等；進入決賽的參賽隊伍提交參賽作品時，作品應包含設計文檔、SOURCE CODE及可在移動裝置中運行的應用程式；進入決賽公布後，參賽隊伍可對作品進行優化，但不能變更作品主題和內容，並根據決賽要求提供最終作品，參賽作品以作品提交截止日期前提交的最後一版為準。</p></li>
-                        <li><p>進入決賽的參賽隊伍，在準決賽現場前，主辦單位將提供必要的技術支援。</p></li>
-                        <li><p>參賽作品若需申請在App Store上架，請作品所有權人自行按照App Store正常流程進行申請，主辦單位將提供與此類申請相關的諮詢。</p></li>
+                        <li><p>本次⼤賽參賽作品須為具有⼀定功能的應⽤程式，該應⽤程式應為於 iOS 系統設計開發，並以蘋果公司的產品及開發⼯具為基礎。⿎勵參賽隊伍下載 Xcode⼯具以及使⽤ Swift語⾔進⾏開發。</p></li>
+                        <li><p>作品主題須緊扣競賽推薦的應⽤領域，及社會關注的議題，包括⼯業、農業、健康醫療、環境保護、教育、養⽼、⾏政管理、安全及⼤數據應⽤等，恕不受理遊戲類領域作品報名。參賽者可⾃由命名，⾃⾏蒐集，獲得相關數據，提供解決⽅案並能在移動裝置上實際運⾏，由專家評審進⾏排名。參賽隊伍要在上傳參賽作品時，各參賽隊需按第⼋點競賽⽂件的要求，提交參賽作品相關說明資料。</p></li>
+                        <li><p>企劃案提交截⽌⽇期之前，各參賽隊伍可隨時修改、優化、更新已提交的競賽⽂件資料。</p></li>
+                        <li><p>⾸次提交參賽作品時，須繳企劃書，如競賽⽂件企劃書電⼦檔所規範；進⼊決賽的參賽隊伍提交參賽作品時，作品應包含可在移動裝置中運⾏的應⽤程式，包含 APP 操作過程影⽚檔、現場簡報檔、 SOURCE CODE 及 APP 宣傳⽂件，進⼊決賽公布後，參賽隊伍可對作品進⾏優化，但不能變更作品主題和內容，並根據決賽要求提供最終作品，參賽作品以作品提交截⽌⽇期前提交的最後⼀版為準。</p></li>
+                        <li><p>進⼊決賽的參賽隊伍，在準決賽現場前，主辦單位將提供必要的技術⽀援。</p></li>
+                        <li><p>參賽作品若需申請在 APP Store 上架，請作品所有權⼈⾃⾏按照 APP Store 正常流程進⾏申請，主辦單位將提供與此類申請相關的諮詢。</p></li>
                     </ol>
                 </div>
             </div>
@@ -361,11 +393,11 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1">
                     <ol>
-                        <li><p>參賽作品篩選及初賽階段作品評審，均採取區域之間評委交叉評審的方式(即參賽學校學生的作品，不會由來自其本校的評委進行評審)，決賽階段評委會，將對決賽參賽作品進行現場打分。</p></li>
+                        <li><p>參賽作品篩選及初賽階段作品評審，均採取區域之間評委交叉評審的⽅式(即參賽學校學⽣的作品，不會由來⾃其本校的評委進⾏評審)，決賽階段評委會，將對決賽參賽作品進⾏現場評分。</p></li>
                         <li><p>初賽成績不作為決賽階段評審的依據。</p></li>
-                        <li><p>本次競賽的評審結果由評審團審定，並在比賽官方網站公佈。獲獎證書由主辦單位統一印製、頒發。頒獎典禮在決賽評審結束後進行。</p></li>
-                        <li><p>獲獎結果公佈後，對獲獎作品保留10天的質疑投訴期，投訴者應提供真實姓名、單位、聯繫方式及詳細證據以證明獲獎作品參賽隊伍存在違規行為，主辦單位將在收到實名投訴後進行調查，如確認參賽隊違規，主辦單位將取消該參賽隊伍所獲獎項並重新調整獎項的授予，主辦單位將依法保護投訴人的隱私權益。</p></li>
-                        <li><p>任何涉嫌作弊行為，一經查出，參賽者將被取消參賽資格。</p></li>
+                        <li><p>本次競賽的評審結果由評審團審定，並在⽐賽官⽅網站公佈。獲獎證書由主辦單位統⼀印製、頒發。頒獎典禮在決賽評審結束後進⾏。</p></li>
+                        <li><p>獲獎結果公佈後，對獲獎作品保留10天的質疑投訴期，投訴者應提供真實姓名、單位、聯繫⽅式及詳細證據以證明獲獎作品參賽隊伍存在違規⾏為，主辦單位將在收到實名投訴後進⾏調查，如確認參賽隊違規，主辦單位將取消該參賽隊伍所獲獎項並重新調整獎項的授予，主辦單位將依法保護投訴⼈的隱私權益，超過10天的質疑投訴期此權利不受影響，參賽者應返還所有得獎獎項。</p></li>
+                        <li><p>任何涉嫌作弊⾏為，⼀經查出，參賽者將被取消參賽資格。</p></li>
                     </ol>
                 </div>
             </div>
@@ -384,55 +416,85 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1">
                     <ol>
-                        <li><p>提交的參賽作品將由大賽評委評審，評審委員將由主辦單位選定，人員包括學校教師（不超過1/3）以及Apple、贊助企業人員共同構成（人數總數為奇數）。</p></li>
-                        <li><p>決賽階段，評審委員將由主辦單位在大賽評審委員團隊中抽籤選出，至決賽現場評分。評審將基於以下5個標準評分，滿分共計100分。</p></li>
+                        <li><p>提交的參賽作品將由⼤賽評委評審，評審委員將由主辦單位選定，⼈員包括學校教師（不超過1/3）以 及Apple 、贊助企業⼈員共同構成（⼈數總數為奇數）。</p></li>
+                        <li><p>決賽階段，評審委員將由主辦單位在⼤賽評審委員團隊中抽籤選出，⾄決賽現場評分。評審將基於以下標準評分，滿分共計 100 分。</p></li>
                     </ol>
                     <br>
-                    <table style="width: 100%"  class="text-center">
+                    <div class="col-lg-9 col-lg-offset-2">
+                    <table style="width: 80%"  class="text-center">
                         <tr>
                             <th class="text-center"><p>項目</p></th>
-                            <th class="text-center"><p>說明</p></th>
                             <th class="text-center"><p>比重</p></th>
+                            <th class="text-center" colspan="2"><p>說明</p></th>
                         </tr>
                         <tr>
-                            <td><p>新穎性</p></td>
-                            <td class="text-left"><p>獨特的設計理念，是否能夠為用戶「創造全新的體驗」</p></td>
-                            <td><p>30分</p></td>
+                            <td rowspan="4"><p>作品基本參數</p></td>
+                            <td rowspan="4"><p>30分</p></td>
                         </tr>
                         <tr>
-                            <td><p>有效利用 iOS / MacOS /<br>WatchOS / TVOS 平台</p></td>
-                            <td class="text-left">
-                                <ol>
-                                    <li><p>設計/程式適合在 iOS / MacOS / WatchOS / TVOS 平台上運行</p></li>
-                                    <li><p>充分的利用iOS / MacOS / WatchOS / TVOS用戶介面 ( UI )</p></li>
-                                    <li><p>開發工具有效的沿用 iOS / MacOS / WatchOS / TVOS 的設計理念和最佳做法等</p></li>
-                                </ol>
-                                </td>
-                            <td><p>20分</p></td>
+                        	<td><p>功能性</p></td>
+                        	<td><p>10分</p></td>
                         </tr>
                         <tr>
-                            <td><p>精緻、美觀、易於使用</p></td>
-                            <td class="text-left">
-                                <ol>
-                                    <li><p>設計/程序的用戶介面美觀，在移動設備上吸引</p></li>
-                                    <li><p>在用戶互動、速度和可操作性方面提升用戶體驗</p></li>
-                                    <li><p>用戶易懂，使用起來簡便直覺性</p></li>
-                                    <li><p>開發工具考慮電源、安全等因素</p></li>
-                                </ol>
-                                </td>
-                            <td><p>20分</p></td>
+                        	<td><p>可靠性</p></td>
+                        	<td><p>10分</p></td>
                         </tr>
                         <tr>
-                            <td><p>商業化的可能性</p></td>
-                            <td class="text-left"><p>是否可結合產業應用，使其做商業化的應用，造福更多廣大用戶</p></td>
-                            <td><p>20分</p></td>
+                        	<td><p>流暢性</p></td>
+                        	<td><p>10分</p></td>
+                        </tr>
+                        <!-- --------------------------------------- -->
+                        <tr>
+                            <td rowspan="5"><p>作品創新與特⾊之處</p></td>
+                            <td rowspan="5"><p>40分</p></td>
                         </tr>
                         <tr>
-                            <td><p>技術複雜度</p></td>
-                            <td class="text-left"><p>設計／程式具有一定的技術水準等</p></td>
-                            <td><p>10分</p></td>
+                        	<td><p>設計理念</p></td>
+                        	<td><p>10分</p></td>
                         </tr>
+                        <tr>
+                        	<td><p>介⾯設計</p></td>
+                        	<td><p>10分</p></td>
+                        </tr>
+                        <tr>
+                        	<td><p>交互設計</p></td>
+                        	<td><p>10分</p></td>
+                        </tr>
+                        <tr>
+                        	<td><p>選題及其他</p></td>
+                        	<td><p>10分</p></td>
+                        </tr>
+                        <!-- --------------------------------------- -->
+                        <tr>
+                            <td rowspan="3"><p>前景評估</p></td>
+                            <td rowspan="3"><p>20分</p></td>
+                        </tr>
+                        <tr>
+                        	<td><p>意義：⽤⼾的需求程度</p></td>
+                        	<td><p>10分</p></td>
+                        </tr>
+                        <tr>
+                        	<td><p>價值：市場的歡迎程度</p></td>
+                        	<td><p>10分</p></td>
+                        </tr>
+                        <!-- --------------------------------------- -->
+                        <tr>
+                            <td rowspan="3"><p>作品資料完整性和品質</p></td>
+                            <td rowspan="3"><p>10分</p></td>
+                        </tr>
+                        <tr>
+                        	<td><p>資料⿑全度(功能說明,原型設計,應⽤ demo 等)</p></td>
+                        	<td><p>5分</p></td>
+                        </tr>
+                        <tr>
+                        	<td><p>資料品質等</p></td>
+                        	<td><p>5分</p></td>
+                        </tr>
+                        <!-- --------------------------------------- -->
                     </table>
+                    <br>
+                    <p style="color: #760000">＊注意： APP 參賽作品若無法於⽐賽期間完成上架者，則酌情減分；初賽評分重點為2~4項⽬。</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -447,7 +509,7 @@
                         <h3>主辦單位</h3>
                         <ul class="list-inline">
                             <li>
-                                <p><a href="http://www.fcu.edu.tw">逢甲大學Apple授權區域教育培訓中心</a></p>
+                                <p><a href="index.jsp">Apple RTC (Taiwan) 授權區域培訓中⼼-逢甲⼤學</a></p>
                             </li>
                             <li>
                                 <p><a href="http://www.straighta.com.tw/">晶盛科技股份有限公司</a></p>
@@ -472,9 +534,9 @@
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>聯絡我們</h3>
-                        <p>聯繫人員： </p>
-                        <p>聯繫地址： </p>
-                        <p>聯繫電話：（02）6608-1000 </p>
+                        <p>聯繫信箱：rtc@mail.fcu.edu.tw</p>
+                        <p>聯繫地址：台中市西屯區⽂華路100號 逢甲⼤學 Apple RTC 授權區域培訓中⼼ </p>
+                        <p>聯繫電話：Straight A客服專線（02）6608-1000</p>
                     </div>
                 </div>
             </div>
