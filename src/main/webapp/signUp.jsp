@@ -4,12 +4,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
+
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Expires" content="0">
 
 <title>2017 APP移動應用創新賽</title>
 
@@ -23,6 +25,14 @@
 <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css"> 
+
+<script type="text/javascript">  
+    function refresh() {  
+        //IE存在缓存,需要new Date()实现更换路径的作用  
+        document.getElementById("image").src="newImage.jsp?"+new Date();  
+    }  
+</script>  
+
 </head>
 <body id="page-top" class="index">
 
@@ -58,7 +68,7 @@
 
 	<section id="sheet" style="padding-top: 100px">
 	<div class="container">
-		<form class="form-signin" method="post" action="webapi/team/signUp">
+		<form method="post" action="check.jsp" id="signUpForm" name="signUpForm">
 			<div class="col-md-6 col-md-offset-3">
 				<h4>必填欄位</h4>
 				<ul>
@@ -75,12 +85,18 @@
 						<input id="Email" maxlength="50" name="Email" size="50" type="email" placeholder="e.g., example@example.com" required>
 						<p style="border: none; color: #760000">※信箱將做為<u>登入帳號</u>且不得重複
 					</li>
+					<li>
+						<img class="img-responsive" id="image" width="150" border="0"  onclick="refresh()" src="newImage.jsp"/>
+						<span>(點擊圖片更換)</span><br>
+						<label for="code">輸入驗證碼：</label>
+						<input type="text" name="code" maxlength="4"/>
+					</li>
 				</ul>
 				<div class="col-md-2 col-md-offset-5" style="margin-bottom: 30px">
 					<button type="submit" class="btn btn-block">送出</button>
 				</div>
 			</div>
-		</form>
+    	</form>
 	</div>
 	</section>
 
