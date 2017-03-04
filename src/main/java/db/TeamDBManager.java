@@ -91,8 +91,8 @@ public class TeamDBManager {
 
 	public void sendEmail(String Email) {
 
-		final String username = "kira070725@gmail.com";
-		final String password = "ebpeboloontatyut";// your password
+		final String username = "rtc@mail.fcu.edu.tw";
+		final String password = "xrjiuuiityofurzi";// your password
 
 		Properties props = new Properties();
 		props.put("mail.smtp.host", "smtp.gmail.com");
@@ -111,7 +111,7 @@ public class TeamDBManager {
 			String url = "140.134.26.64:7870/2017/teamSystem.jsp";
 			String content = "您的帳號：" + Email + "\n您的密碼：" + pwd + "\n請透過網址登入：" + url;
 			Message message = new MimeMessage(session);
-			message.setFrom(new InternetAddress("app.iecs.fcu@gmail.com"));
+			message.setFrom(new InternetAddress("rtc@mail.fcu.edu.tw"));
 			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(Email));
 			message.setSubject("2017APP創新應用競賽報名驗證");
 			message.setText(content);
