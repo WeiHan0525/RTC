@@ -1,6 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
 
+<%
+String email = (String) session.getAttribute("email");
+if (email == null || email.equals("")) {
+	response.sendRedirect("login.jsp");
+}
+%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -60,6 +67,7 @@
 				<!-- Single button -->
 				<li class="page-scroll"><a href="index.jsp">回首頁</a></li>
 				<li class="page-scroll"><a href="#footer">聯絡我們</a></li>
+				<li class="page-scroll"><a href="logout.jsp">登出</a></li>
 			</ul>
 		</div>
 		<!-- /.navbar-collapse -->
@@ -79,44 +87,60 @@
                             <th class="text-center"><p>時間</p></th>
                             <th class="text-center"><p>項目</p></th>
                             <th class="text-center"><p>內容</p></th>
+                            <th class="text-center" style="color: #760000"><p><strong>繳交</strong></p></th>
                         </tr>
                         <tr>
                             <td><p>2017/3/3 ~ 2017/4/7</p></td>
                             <td><p>報名日期</p></td>
                             <td><p>繳交報名文件</p></td>
+                            <td><p style="color: #760000">附件一</p></td>
                         </tr>
                         <tr>
                             <td><p>2017/4/8 ~ 2017/5/8</p></td>
                             <td><p>書面企劃案提交</p></td>
                             <td><p>參賽作品交件</p></td>
+                            <td><p style="color: #760000">附件二</p></td>
                         </tr>
                         <tr>
                             <td><p>2017/5/9 ~ 2017/5/22</p></td>
                             <td><p>初賽評選</p></td>
                             <td><p>評選出20隊作品進入決賽</p></td>
+                            <td><p style="color: #760000"> </p></td>
                         </tr>
                         <tr>
                             <td><p>2017/5/24</p></td>
                             <td><p>初選結果公布</p></td>
                             <td><p>初選結果公布</p></td>
+                            <td><p style="color: #760000"> </p></td>
                         </tr>
                         <tr>
                             <td><p>2017/5/27</p></td>
                             <td><p>交流討論會</p></td>
                             <td><p>於逢甲⼤學進⾏Workshop交流討論會，凡進⼊決賽的參賽隊伍皆可⾃由參加。 </p></td>
+                            <td><p style="color: #760000"> </p></td>
                         </tr>
                         <tr>
                             <td><p>2017/6/1 ~ 2017/6/30</p></td>
                             <td><p>實作APP作品提交</p></td>
                             <td><p>進⼊決賽的參賽隊伍對參賽作品進⾏修改提交，決賽現場的提案簡報檔、<br>SOURCE CODE、APP宣傳資料，以及APP操作過程的影⽚檔。</p></td>
-                        </tr><tr>
+                            <td class="col-md-3 text-left">
+                            	<ol>
+                            		<li><p style="color: #760000">操作影⽚：請依照企劃書內容撰寫出適⽤可攜式移動裝置之 APP ，操作過程需拍攝成影⽚，影⽚⾧度180秒，限MP4格式，解析度1280*720 dpi 以上，須上傳⾄ YouTube設定為公開播放，並將影⽚播放網址填⾄現場簡報檔中；視頻內容必須與APP應⽤相關，任何含暴⼒、⾊情等的內容均將被駁回。</p></li>
+                            		<li><p style="color: #760000">現場簡報檔，提報時間以10分鐘為限。</p></li>
+                            		<li><p style="color: #760000">SOURCE CODE ⽂字檔案。</p></li>
+                            		<li><p style="color: #760000">APP宣傳資料( 如附件三)。</p></li>
+                            	</ol>
+                            </td>
+                        </tr>
+                        <tr>
                             <td><p>2017/7/8</p></td>
                             <td><p>決賽現場</p></td>
                             <td><p>於逢甲⼤學進⾏決賽，現場展演、答辯及評選，<br>現場必須使⽤Apple硬體為載具進⾏展演，設備需⾃⾏攜帶。</p></td>
+                            <td><p style="color: #760000"> </p></td>
                         </tr>
             </table>
             <br>
-            <a href="附件.pdf" class="btn btn-default" target = "_blank">附件下載</a>
+            <a href="附件.pdf" class="btn btn-default" target = "_blank">全部附件下載</a>
 		</div>
 		<div class="col-md-2 col-md-offset-5" style="margin-top: 50px">
 			<form method="post" action="webapi/team/upload"

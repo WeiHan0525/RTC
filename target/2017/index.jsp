@@ -190,40 +190,40 @@
                             <td><p>特獎</p></td>
                             <td><p>1隊</p></td>
                             <td class="col-md-8">
-                            	<p>MacBook Pro 具備 Touch Bar和Touch ID 價值$57,900乙台</p>
-                            	<p>指導⽼師獎⾦$30,000</p>
+                            	<p style="color: #760000">MacBook Pro 具備 Touch Bar和Touch ID 價值$57,900乙台</p>
+                            	<p style="color: #760000">指導⽼師獎⾦$30,000</p>
                             </td>
                         </tr>
                         <tr>
                             <td><p>一獎</p></td>
                             <td><p>1隊</p></td>
                             <td class="col-md-8">
-                            	<p>iPhone 7 Plus 256GB 價值$36,900⼄台</p>
-                            	<p>指導⽼師獎⾦$20,000</p>
+                            	<p style="color: #760000">iPhone 7 Plus 256GB 價值$36,900⼄台</p>
+                            	<p style="color: #760000">指導⽼師獎⾦$20,000</p>
                             </td>
                         </tr>
                         <tr>
                             <td><p>二獎</p></td>
                             <td><p>1隊</p></td>
                             <td class="col-md-8">
-                            	<p>iPad Pro 9.7 吋256GB 價值$25,900⼄台</p>
-                            	<p>指導⽼師獎⾦$10,000</p>
+                            	<p style="color: #760000">iPad Pro 9.7 吋256GB 價值$25,900⼄台</p>
+                            	<p style="color: #760000">指導⽼師獎⾦$10,000</p>
                             </td>
                         </tr>
                         <tr>
                             <td><p>三獎</p></td>
                             <td><p>1隊</p></td>
                             <td class="col-md-8">
-                            	<p>iPad Air 2 128GB 價值$16,900⼄台</p>
-                            	<p>指導⽼師獎⾦$8,000</p>
+                            	<p style="color: #760000">iPad Air 2 128GB 價值$16,900⼄台</p>
+                            	<p style="color: #760000">指導⽼師獎⾦$8,000</p>
                             </td>
                         </tr>
                         <tr>
                             <td><p>佳獎</p></td>
                             <td><p>1隊</p></td>
                             <td class="col-md-8">
-                            	<p>iPad mini 4 32GB 價值$13,900 ⼄台</p>
-                            	<p>指導⽼師獎⾦$6,000</p>
+                            	<p style="color: #760000">iPad mini 4 32GB 價值$13,900 ⼄台</p>
+                            	<p style="color: #760000">指導⽼師獎⾦$6,000</p>
                             </td>
                         </tr>
                     </table>

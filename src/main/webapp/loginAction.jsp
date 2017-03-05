@@ -6,16 +6,30 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>2017 APP移動應用創新賽</title>
+<script type="text/javascript">
+	function loginfalse() {
+		alert("帳號或密碼錯誤");
+		location.href = "login.jsp";
+	}
+</script>
 </head>
 <body>
 
 <%
 	String Email = request.getParameter("InputEmail");
-	String Password = request.getParameter("InputPassworc");
+	String Password = request.getParameter("InputPassword");
+	boolean valid;
 	
 	TeamService teamService = new TeamService();
 	
-	teamService.login(Email, Password);
+	valid = teamService.isValidTeam(Email, Password);
+	
+	if(valid){
+		session.setAttribute("email", Email);
+		response.sendRedirect("teamSystem.jsp");
+	}else{
+		out.print("<script language='javascript'>loginfalse();</script>");
+	}
 %>
 
 </body>

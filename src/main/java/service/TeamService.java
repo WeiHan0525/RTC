@@ -50,18 +50,18 @@ public class TeamService {
 		return Response.temporaryRedirect(location).build();
 	}
 	
-	public Response login(@FormParam("InputEmail") String Email, @FormParam("InputPassword") String Password) throws URISyntaxException{
-		boolean valid;
-		valid = dbManager.validateTeam(Email, Password);
-		
-		if(!valid){
-			java.net.URI location = new java.net.URI("../loginFalse.jsp");
-			return Response.temporaryRedirect(location).build();
-		}
-		
-		java.net.URI location = new java.net.URI("../teamSystem.jsp");
-		return Response.temporaryRedirect(location).build();		
-	}
+//	public Response login(@FormParam("InputEmail") String Email, @FormParam("InputPassword") String Password) throws URISyntaxException{
+//		boolean valid;
+//		valid = dbManager.validateTeam(Email, Password);
+//		
+//		if(!valid){
+//			java.net.URI location = new java.net.URI("../loginFalse.jsp");
+//			return Response.temporaryRedirect(location).build();
+//		}
+//		
+//		java.net.URI location = new java.net.URI("../teamSystem.jsp");
+//		return Response.temporaryRedirect(location).build();		
+//	}
 	
 	@POST
 	@Path("upload")
@@ -118,14 +118,14 @@ public class TeamService {
 //		return "false";
 //	}
 //
-//	@POST
-//	@Path("validate")
-//	@Consumes(MediaType.APPLICATION_FORM_URLENCODED)
-//	@Produces(MediaType.APPLICATION_JSON)
-//	public String isValidTeam(@FormParam("email") String email, @FormParam("password") String password) {
-//		boolean valid = dbManager.validateTeam(email, password);
-//		return String.valueOf(valid);
-//	}
+	@POST
+	@Path("validate")
+	@Consumes(MediaType.APPLICATION_FORM_URLENCODED)
+	@Produces(MediaType.APPLICATION_JSON)
+	public boolean isValidTeam(@FormParam("email") String email, @FormParam("password") String password) {
+		boolean valid = dbManager.validateTeam(email, password);
+		return valid;
+	}
 //
 //	@GET
 //	@Path("email/{email}")

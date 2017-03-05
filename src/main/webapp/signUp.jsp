@@ -91,6 +91,7 @@
 						<span>(點擊圖片更換)</span><br>
 						<label for="code">輸入驗證碼：</label>
 						<input type="text" name="code" maxlength="4"/>
+						<span>（請注意大小寫）</span>
 					</li>
 				</ul>
 				<div class="col-md-2 col-md-offset-5" style="margin-bottom: 30px">
