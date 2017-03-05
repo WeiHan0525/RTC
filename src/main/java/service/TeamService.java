@@ -50,19 +50,6 @@ public class TeamService {
 		return Response.temporaryRedirect(location).build();
 	}
 	
-//	public Response login(@FormParam("InputEmail") String Email, @FormParam("InputPassword") String Password) throws URISyntaxException{
-//		boolean valid;
-//		valid = dbManager.validateTeam(Email, Password);
-//		
-//		if(!valid){
-//			java.net.URI location = new java.net.URI("../loginFalse.jsp");
-//			return Response.temporaryRedirect(location).build();
-//		}
-//		
-//		java.net.URI location = new java.net.URI("../teamSystem.jsp");
-//		return Response.temporaryRedirect(location).build();		
-//	}
-	
 	@POST
 	@Path("upload")
 	@Consumes(MediaType.MULTIPART_FORM_DATA)

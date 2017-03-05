@@ -68,21 +68,23 @@
 	<div class="border-bottom"></div>
 	</nav>
 
-	<div class="container">
+<section id="login" style="padding-top: 100px">
+	<div class="container" style="padding-bottom: 100px; padding-top: 150px">
 		<form class="form-signin" method="post" action="loginAction.jsp">
-			<div class="col-md-4 col-md-offset-4" style="padding-top:100px">
+			<div class="col-md-4 col-md-offset-4">
 				<div class="panel-body">
 					<div class="form-group">
 						<label for="InputEmail">電子郵件</label> 
 						<input type="email" class="form-control" name="InputEmail" placeholder="輸入電子郵件"
-							requried autofocus> 
+							requried autofocus>
+						<br>	
 						<label for="eInputPassword">密碼</label>
 						<input type="password" class="form-control" name="InputPassword" placeholder="輸入密碼" requried>
 
-						<div class="checkbox">
-							<label> <input type="checkbox"> 記住我
+						<!-- <div class="checkbox">
+							<label style="font-size: 16px"> <input type="checkbox">記住我
 							</label>
-						</div>
+						</div> -->
 					</div>
 
 					<div class="form-group">
@@ -94,6 +96,65 @@
 			</div>
 		</form>
 	</div>
+</section>
+
+<!-- Footer -->
+	<footer class="text-center" id="footer">
+	<div class="footer-above">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col col-md-4">
+					<h3>主辦單位</h3>
+					<ul class="list-inline">
+						<li>
+							<p><a href="index.jsp">Apple RTC (Taiwan) 授權區域培訓中⼼-逢甲⼤學</a></p>
+						</li>
+						<li>
+							<p>
+								<a href="http://www.straighta.com.tw/">晶盛科技股份有限公司</a>
+							</p>
+						</li>
+						<!--
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+-->
+					</ul>
+				</div>
+				<div class="footer-col col-md-4">
+					<h3>協辦單位</h3>
+					<p>
+						<a href="http://www.fcu.edu.tw">逢甲大學</a>
+					</p>
+					<p>
+						<a href="http://www.apple.com/tw/">Apple</a>
+					</p>
+				</div>
+				<div class="footer-col col-md-4">
+                    <h3>聯絡我們</h3>
+                    <p>聯繫信箱：rtc@mail.fcu.edu.tw</p>
+                    <p>聯繫地址：台中市西屯區⽂華路100號 逢甲⼤學 Apple RTC 授權區域培訓中⼼ </p>
+                    <p>聯繫電話：Straight A客服專線（02）6608-1000</p>
+                </div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-below">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<p>Copyright &copy APP移動應用創新賽. Design by FCU</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</footer>
 
 	<!-- jQuery -->
 	<script src="vendor/jquery/jquery.min.js"></script>

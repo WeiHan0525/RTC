@@ -104,8 +104,11 @@ section.success{background:#18BC9C;color:#fff}
 #sheet p{font-size: 1.3em; border-left: solid 8px #f9f2c1; padding: 4px 0 4px 15px}
 #sheet a{color: black}
 #sheet button{background-color: #368491; color: white; border-radius: 8px; border-color: #368491}
-.btn-login{background-color: #368491; border-color: #368491; border-radius: 8px; color: white}
-.btn-login:hover{background-color: #368491; border-color: #368491; border-radius: 8px; color: white}
+
+#login button{background-color: #368491; border-color: #368491; border-radius: 8px; color: white}
+#login button:hover{background-color: #368491; border-color: #368491; border-radius: 8px; color: white}
+#login label{font-size: 1.3em}
+#login input{border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px}
 
 /*#schedule p, #award p, #require p, #product p, */
 
