@@ -41,7 +41,7 @@ if (email == null || email.equals("")) {
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+<link rel="icon" href="img/favicon.png" />
 </head>
 <body id="page-top" class="index">
 
@@ -79,7 +79,7 @@ if (email == null || email.equals("")) {
 	<section id="upload" style="padding-top: 100px">
 	<div class="container" style="padding-bottom: 100px">
 		<div class="col-lg-12 text-center">
-			<h2>競賽日程</h2>
+			<h2>競賽文件</h2>
 		</div>
 		<div class="col-lg-10 col-lg-offset-1" style="margin-top: 30px">
 			<table style="width: 100%;"  class="text-center">
@@ -90,52 +90,53 @@ if (email == null || email.equals("")) {
                             <th class="text-center" style="color: #760000"><p><strong>繳交</strong></p></th>
                         </tr>
                         <tr>
-                            <td><p>2017/3/3 ~ 2017/4/7</p></td>
+                            <td><p>2017/3/7 ~ 2017/4/7</p></td>
                             <td><p>報名日期</p></td>
                             <td><p>繳交報名文件</p></td>
-                            <td><p style="color: #760000">附件一</p></td>
+                            <td>
+                            	<p style="color: #760000">附件一</p>
+                            	<p style="color: #760000">文件需整併成一個PDF檔,檔案名稱須同【參賽APP名稱】。</p>
+                            </td>
                         </tr>
                         <tr>
                             <td><p>2017/4/8 ~ 2017/5/8</p></td>
                             <td><p>書面企劃案提交</p></td>
                             <td><p>參賽作品交件</p></td>
-                            <td><p style="color: #760000">附件二</p></td>
-                        </tr>
-                        <tr>
-                            <td><p>2017/5/9 ~ 2017/5/22</p></td>
-                            <td><p>初賽評選</p></td>
-                            <td><p>評選出20隊作品進入決賽</p></td>
-                            <td><p style="color: #760000"> </p></td>
+                            <td>
+                            	<p style="color: #760000">附件二</p>
+                            	<p style="color: #760000">請以A4版面書寫5至10頁以內，另作封面註明隊伍名稱與作品名稱，檔案格式請存成 PDF檔，檔案名稱須同【參賽APP名稱_企劃書】，檔案大小請避免超過10MB。</p>
+                            </td>
                         </tr>
                         <tr>
                             <td><p>2017/5/24</p></td>
                             <td><p>初選結果公布</p></td>
-                            <td><p>初選結果公布</p></td>
+                            <td><p>評選出20隊作品進入決賽</p></td>
                             <td><p style="color: #760000"> </p></td>
                         </tr>
                         <tr>
-                            <td><p>2017/5/27</p></td>
-                            <td><p>交流討論會</p></td>
-                            <td><p>於逢甲⼤學進⾏Workshop交流討論會，凡進⼊決賽的參賽隊伍皆可⾃由參加。 </p></td>
-                            <td><p style="color: #760000"> </p></td>
+                            <td><p>2017/5/25~5/31</p></td>
+                            <td><p>決賽繳交</p></td>
+                            <td><p>進入決賽隊伍，若有成員未滿二十歲者，需補交「法定代理人同意書」，任一人未於時間內繳交者，則取消該隊決賽資格，由下一順序之參賽隊伍遞補。</p></td>
+                            <td><p style="color: #760000">（法定代理人同意書）</p></td>
                         </tr>
                         <tr>
                             <td><p>2017/6/1 ~ 2017/6/30</p></td>
                             <td><p>實作APP作品提交</p></td>
-                            <td><p>進⼊決賽的參賽隊伍對參賽作品進⾏修改提交，決賽現場的提案簡報檔、<br>SOURCE CODE、APP宣傳資料，以及APP操作過程的影⽚檔。</p></td>
+                            <td><p>進入決賽的參賽隊伍對參賽作品進行修改提交，決賽現場的提案簡報檔、<br>SOURCE CODE、APP宣傳資料，以及APP操作過程的影片檔。</p></td>
                             <td class="col-md-3 text-left">
                             	<ol>
-                            		<li><p style="color: #760000">操作影⽚：請依照企劃書內容撰寫出適⽤可攜式移動裝置之 APP ，操作過程需拍攝成影⽚，影⽚⾧度180秒，限MP4格式，解析度1280*720 dpi 以上，須上傳⾄ YouTube設定為公開播放，並將影⽚播放網址填⾄現場簡報檔中；視頻內容必須與APP應⽤相關，任何含暴⼒、⾊情等的內容均將被駁回。</p></li>
+                            		<li><p style="color: #760000">操作影片：請依照企劃書內容撰寫出適⽤可攜式移動裝置之 APP ，操作過程需拍攝成影片，影片長度180秒，限MP4格式，解析度1280*720 dpi 以上，須上傳至YouTube設定為公開播放，並將影片播放網址填⾄現場簡報檔中；視頻內容必須與APP應用相關，任何含暴力、色情等的內容均將被駁回。</p></li>
                             		<li><p style="color: #760000">現場簡報檔，提報時間以10分鐘為限。</p></li>
-                            		<li><p style="color: #760000">SOURCE CODE ⽂字檔案。</p></li>
+                            		<li><p style="color: #760000">SOURCE CODE 文字檔案。</p></li>
                             		<li><p style="color: #760000">APP宣傳資料( 如附件三)。</p></li>
+                            		<li><p style="color: #760000">以上(1)~(4)資料，請存成一個資料夾，檔案名稱須同【參賽APP名稱_APP作品】。</p></li>
                             	</ol>
                             </td>
                         </tr>
                         <tr>
                             <td><p>2017/7/8</p></td>
                             <td><p>決賽現場</p></td>
-                            <td><p>於逢甲⼤學進⾏決賽，現場展演、答辯及評選，<br>現場必須使⽤Apple硬體為載具進⾏展演，設備需⾃⾏攜帶。</p></td>
+                            <td><p>於逢甲大學進行決賽，現場展演、答辯及評選，<br>現場必須使用Apple硬體為載具進行展演，設備需自行攜帶。</p></td>
                             <td><p style="color: #760000"> </p></td>
                         </tr>
             </table>
@@ -144,7 +145,7 @@ if (email == null || email.equals("")) {
 		</div>
 		<div class="col-md-2 col-md-offset-5" style="margin-top: 50px">
 			<form method="post" action="webapi/team/upload"
-				enctype="multipart/form-data">
+				enctype="multipart/form-data" accept-charset="UTF-8">
 				<div class="form-group">
 					<h4>上傳檔案</h4>
 					<input type="file" name="file" size="50" /> <br>
@@ -167,7 +168,7 @@ if (email == null || email.equals("")) {
 					<h3>主辦單位</h3>
 					<ul class="list-inline">
 						<li>
-							<p><a href="index.jsp">Apple RTC (Taiwan) 授權區域培訓中⼼-逢甲⼤學</a></p>
+							<a href="http://rtc.fcu.edu.tw">Apple RTC區域教育培訓中心-逢甲大學</a>
 						</li>
 						<li>
 							<p>
@@ -199,7 +200,7 @@ if (email == null || email.equals("")) {
 				<div class="footer-col col-md-4">
                     <h3>聯絡我們</h3>
                     <p>聯繫信箱：rtc@mail.fcu.edu.tw</p>
-                    <p>聯繫地址：台中市西屯區⽂華路100號 逢甲⼤學 Apple RTC 授權區域培訓中⼼ </p>
+                    <p>聯繫地址：台中市西屯區文華路100號 逢甲大學 Apple RTC</p>
                     <p>聯繫電話：Straight A客服專線（02）6608-1000</p>
                 </div>
 			</div>

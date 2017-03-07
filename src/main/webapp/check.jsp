@@ -19,6 +19,7 @@
 	}
 </script>
 <title>2017 APP移動應用創新賽</title>
+<link rel="icon" href="img/favicon.png" />
 </head>
 <body>
 	<%
@@ -36,6 +37,8 @@
 	<%
 		String rand = session.getAttribute("code").toString();
 		String input = request.getParameter("code");
+		out.print("code: " + rand);
+		System.out.println();
 		if (rand.equals(input)) {
 			out.println("<script language='javascript'>same();</script>");
 		} else {

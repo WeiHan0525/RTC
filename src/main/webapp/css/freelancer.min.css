@@ -89,8 +89,8 @@ section.success{background:#18BC9C;color:#fff}
 #signUp img{width: 140px;height: 140px;margin: auto}
 #signUp p{line-height: 30px}
 #signUp table{border:none;margin: auto;padding: 5px}
-#signUp a{font-size: 20px; background-color: #565657; border-radius: 8px; border-color: #565657}
-#signUp a:hover{font-size: 20px; background-color: #565657; border-radius: 8px; border-color: #565657}
+#signUp a{font-size: 20px; background-color: #565657; border-radius: 8px; border-color: #565657; color: white}
+#signUp a:hover{font-size: 20px; background-color: #565657; border-radius: 8px; border-color: #565657; color: white}
 
 #upload table, #upload td{border: 1px solid black;padding: 5px;font-size: 16px;position:relative}
 #upload th{border: 1px solid black;padding: 5px;font-size: 18px;position:relative}

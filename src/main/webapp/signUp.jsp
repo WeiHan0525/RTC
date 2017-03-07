@@ -32,7 +32,7 @@
         document.getElementById("image").src="newImage.jsp?"+new Date();  
     }  
 </script>  
-
+<link rel="icon" href="img/favicon.png" />
 </head>
 <body id="page-top" class="index">
 
@@ -68,7 +68,7 @@
 
 	<section id="sheet" style="padding-top: 100px">
 	<div class="container">
-		<form method="post" action="check.jsp" id="signUpForm" name="signUpForm">
+		<form method="post" action="check.jsp" id="signUpForm" name="signUpForm" accept-charset="utf-8">
 			<div class="col-md-6 col-md-offset-3">
 				<h4>必填欄位</h4>
 				<ul>
@@ -111,7 +111,7 @@
 					<h3>主辦單位</h3>
 					<ul class="list-inline">
 						<li>
-							<p><a href="index.jsp">Apple RTC (Taiwan) 授權區域培訓中⼼-逢甲⼤學</a></p>
+							<a href="http://rtc.fcu.edu.tw">Apple RTC區域教育培訓中心-逢甲大學</a>
 						</li>
 						<li>
 							<p>
@@ -143,7 +143,7 @@
 				<div class="footer-col col-md-4">
                     <h3>聯絡我們</h3>
                     <p>聯繫信箱：rtc@mail.fcu.edu.tw</p>
-                    <p>聯繫地址：台中市西屯區⽂華路100號 逢甲⼤學 Apple RTC 授權區域培訓中⼼ </p>
+                    <p>聯繫地址：台中市西屯區文華路100號 逢甲大學 Apple RTC</p>
                     <p>聯繫電話：Straight A客服專線（02）6608-1000</p>
                 </div>
 			</div>

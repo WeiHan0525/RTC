@@ -12,6 +12,7 @@
 		location.href = "login.jsp";
 	}
 </script>
+<link rel="icon" href="img/favicon.png" />
 </head>
 <body>
 

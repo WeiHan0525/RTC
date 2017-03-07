@@ -108,7 +108,7 @@ public class TeamDBManager {
 		try {
 			String pwd = getTeam(Email).getPassword();
 //			String url = "140.134.26.64:7870/2017/verify.jsp";
-			String url = "140.134.26.64:7870/2017/login.jsp";
+			String url = "http://rtc.fcu.edu.tw/2017/login.jsp";
 			String content = "您的帳號：" + Email + "<br>您的密碼：" + pwd + "<br>請透過網址登入：" + url;
 //			Message message = new MimeMessage(session);
 			MimeMessage message = new MimeMessage(session);

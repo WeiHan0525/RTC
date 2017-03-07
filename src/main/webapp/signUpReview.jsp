@@ -34,7 +34,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+<link rel="icon" href="img/favicon.png" />
 </head>
 <body id="page-top" class="index">
 
@@ -83,7 +83,7 @@
 					<h3>主辦單位</h3>
 					<ul class="list-inline">
 						<li>
-							<p><a href="index.jsp">Apple RTC (Taiwan) 授權區域培訓中⼼-逢甲⼤學</a></p>
+							<a href="http://rtc.fcu.edu.tw">Apple RTC區域教育培訓中心-逢甲大學</a>
 						</li>
 						<li>
 							<p>
@@ -115,7 +115,7 @@
 				<div class="footer-col col-md-4">
                     <h3>聯絡我們</h3>
                     <p>聯繫信箱：rtc@mail.fcu.edu.tw</p>
-                    <p>聯繫地址：台中市西屯區⽂華路100號 逢甲⼤學 Apple RTC 授權區域培訓中⼼ </p>
+                    <p>聯繫地址：台中市西屯區文華路100號 逢甲大學 Apple RTC</p>
                     <p>聯繫電話：Straight A客服專線（02）6608-1000</p>
                 </div>
 			</div>

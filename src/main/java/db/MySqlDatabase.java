@@ -9,9 +9,11 @@ import java.sql.SQLException;
 public class MySqlDatabase implements IDatabase {
   
   private static final String DB_DRIVER = "com.mysql.jdbc.Driver";
-  private static final String DB_CONNECTION = "jdbc:mysql://140.134.26.64:2017/RTCweb?relaxAutoCommit=true&useSSL=false&useUnicode=true&characterEncoding=utf-8";
+//  private static final String DB_CONNECTION = "jdbc:mysql://140.134.26.64:2017/RTCweb?relaxAutoCommit=true&useSSL=false&useUnicode=true&characterEncoding=utf-8";
+  private static final String DB_CONNECTION = "jdbc:mysql://127.0.0.1:3306/RTCweb?relaxAutoCommit=true&useSSL=false&useUnicode=true&characterEncoding=utf-8";
   private static final String DB_USER = "root";
-  private static final String DB_PASSWORD = "2017wwdc";
+  private static final String DB_PASSWORD = "selabxrtcdb245";
+//  private static final String DB_PASSWORD = "2017wwdc";
   private Connection con = null; 
   
   @Override

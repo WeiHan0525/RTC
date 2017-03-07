@@ -5,6 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URISyntaxException;
+import java.nio.charset.Charset;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.FormParam;
@@ -46,7 +47,7 @@ public class TeamService {
 			return Response.temporaryRedirect(location).build();
 		}
 		
-		java.net.URI location = new java.net.URI("../signUpFalse.jsp");
+		java.net.URI location = new java.net.URI("../systemBusy.jsp");
 		return Response.temporaryRedirect(location).build();
 	}
 	
@@ -56,14 +57,15 @@ public class TeamService {
 	public Response upload(@FormDataParam("file") InputStream uploadedInputStream,
 			@FormDataParam("file") FormDataContentDisposition fileDetail) throws URISyntaxException {
 		String tempDir = System.getProperty("java.io.tmpdir");
-
-		String uploadDir = tempDir + "uploads/";
+		
+		String uploadDir = tempDir + "/uploads/";
 
 		File fUploadDir = new File(uploadDir);
 		if (!fUploadDir.exists()) {
 			fUploadDir.mkdirs();
 		}
 		String fileName = fileDetail.getFileName();
+		Charset.forName("utf-8").encode(fileName);
 		System.out.println("fileName :" + fileName);
 		String uploadedFileLocation = uploadDir + fileName;
 		System.out.println("File successfully uploaded to : " + uploadedFileLocation);
@@ -72,7 +74,7 @@ public class TeamService {
 			FileOutputStream out = new FileOutputStream(new File(uploadedFileLocation));
 			int read = 0;
 			byte[] bytes = new byte[1024];
-			out = new FileOutputStream(new File(uploadedFileLocation));
+			out = new FileOutputStream(new File(uploadedFileLocation), true);
 			while ((read = uploadedInputStream.read(bytes)) != -1) {
 				out.write(bytes, 0, read);
 			}
