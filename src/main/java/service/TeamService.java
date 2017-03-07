@@ -4,7 +4,9 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.UnsupportedEncodingException;
 import java.net.URISyntaxException;
+import java.net.URLDecoder;
 import java.nio.charset.Charset;
 
 import javax.ws.rs.Consumes;
@@ -65,9 +67,16 @@ public class TeamService {
 			fUploadDir.mkdirs();
 		}
 		String fileName = fileDetail.getFileName();
-		Charset.forName("utf-8").encode(fileName);
-		System.out.println("fileName :" + fileName);
-		String uploadedFileLocation = uploadDir + fileName;
+		String name = "";
+		try {
+			name = new String(fileName.getBytes("iso-8859-1"),"utf-8");
+		} catch (UnsupportedEncodingException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+//		System.out.println("fileName :" + fileName);
+		System.out.println("Name :" + name);
+		String uploadedFileLocation = uploadDir + name;
 		System.out.println("File successfully uploaded to : " + uploadedFileLocation);
 
 		try {
@@ -83,7 +92,8 @@ public class TeamService {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println("fileName :" + fileName);
+//		System.out.println("fileName :" + fileName);
+		System.out.println("fileName :" + name);
 		java.net.URI location = new java.net.URI("../uploadSuccess.jsp");
 		return Response.temporaryRedirect(location).build();
 	}

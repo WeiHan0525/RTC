@@ -27,7 +27,7 @@
 		String Leader = request.getParameter("Leader");
 		String Phone = request.getParameter("Phone");
 		String Email = request.getParameter("Email");
-		System.out.println(Leader + ", " + Phone + ", " + Email);
+		System.out.println("check: " + Leader + ", " + Phone + ", " + Email);
 	%>
 	<form id="signUpForm" name="signUpForm" method="post">
 		<input type="hidden" id="Leader" value=<%=Leader%> name="Leader">
@@ -38,7 +38,6 @@
 		String rand = session.getAttribute("code").toString();
 		String input = request.getParameter("code");
 		out.print("code: " + rand);
-		System.out.println();
 		if (rand.equals(input)) {
 			out.println("<script language='javascript'>same();</script>");
 		} else {

@@ -19,6 +19,10 @@ import data.Team;
 public class TeamDBManager {
 
 	private static TeamDBManager DB_MANAGER = new TeamDBManager();
+	
+	private static final String EMAIL_ACCOUNT="";
+	
+	private static final String EMAIL_PASS="";
 
 	public static TeamDBManager getInstance() {
 		return DB_MANAGER;
@@ -34,10 +38,10 @@ public class TeamDBManager {
 		Connection conn = database.getConnection();
 		PreparedStatement preStmt = null;
 		Statement stmt = null;
-		String sql = "INSERT INTO Team(Leader, Phone, Email, Password) VALUES(?, ?, ?, ?)";
-		String query = "SELECT * FROM Team";
+		String sql = "INSERT INTO team(Leader, Phone, Email, Password) VALUES(?, ?, ?, ?)";
+		String query = "SELECT * FROM team";
 		try {
-			if(CheckaddTeam(team.getEmail())){
+			if (checkaddTeam(team.getEmail())) {
 				return false;
 			}
 			preStmt = conn.prepareStatement(sql);
@@ -56,7 +60,6 @@ public class TeamDBManager {
 				System.out.println("Team Leader: " + rs.getString("Leader") + ", Email: " + rs.getString("Email"));
 			}
 			stmt.close();
-			conn.commit();
 			return true;
 
 		} catch (SQLException e) {
@@ -107,10 +110,10 @@ public class TeamDBManager {
 
 		try {
 			String pwd = getTeam(Email).getPassword();
-//			String url = "140.134.26.64:7870/2017/verify.jsp";
-			String url = "http://rtc.fcu.edu.tw/2017/login.jsp";
+			// String url = "140.134.26.64:7870/2017/verify.jsp";
+			String url = "http://rtc.fcu.edu.tw/login.jsp";
 			String content = "您的帳號：" + Email + "<br>您的密碼：" + pwd + "<br>請透過網址登入：" + url;
-//			Message message = new MimeMessage(session);
+			// Message message = new MimeMessage(session);
 			MimeMessage message = new MimeMessage(session);
 			message.setFrom(new InternetAddress("rtc@mail.fcu.edu.tw"));
 			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(Email));
@@ -129,7 +132,7 @@ public class TeamDBManager {
 	public boolean validateTeam(String email, String password) {
 		Connection conn = database.getConnection();
 		PreparedStatement stmt = null;
-		String query = "SELECT * FROM Team WHERE email = ? and password = ?";
+		String query = "SELECT * FROM team WHERE email = ? and password = ?";
 		try {
 			stmt = conn.prepareStatement(query);
 			stmt.setString(1, email);
@@ -137,7 +140,6 @@ public class TeamDBManager {
 			ResultSet rs = stmt.executeQuery();
 			boolean valid = rs.first();
 			stmt.close();
-			conn.commit();
 			return valid;
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -152,17 +154,16 @@ public class TeamDBManager {
 	}
 
 	//
-	public boolean CheckaddTeam(String email) {
+	public boolean checkaddTeam(String email) {
 		Connection conn = database.getConnection();
 		PreparedStatement stmt = null;
-		String query = "SELECT * FROM Team WHERE email = ?";
+		String query = "SELECT * FROM team WHERE email = ?";
 		try {
 			stmt = conn.prepareStatement(query);
 			stmt.setString(1, email);
 			ResultSet rs = stmt.executeQuery();
 			boolean valid = rs.first();
 			stmt.close();
-			conn.commit();
 			return valid;
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -179,7 +180,7 @@ public class TeamDBManager {
 	public Team getTeam(String email) {
 		Connection conn = database.getConnection();
 		PreparedStatement stmt = null;
-		String query = "select * from Team where email = ?";
+		String query = "select * from team where email = ?";
 		try {
 			stmt = conn.prepareStatement(query);
 			stmt.setString(1, email);
@@ -189,7 +190,6 @@ public class TeamDBManager {
 				Team.setPassword(rs.getString("password"));
 			}
 			stmt.close();
-			conn.commit();
 			return Team;
 		} catch (SQLException e) {
 			e.printStackTrace();

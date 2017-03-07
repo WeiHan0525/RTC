@@ -141,7 +141,7 @@ if (email == null || email.equals("")) {
                         </tr>
             </table>
             <br>
-            <a href="附件.pdf" class="btn btn-default" target = "_blank">全部附件下載</a>
+            <a href="2017年APP移動應用創新賽.pdf" class="btn btn-default" target = "_blank">全部附件下載</a>
 		</div>
 		<div class="col-md-2 col-md-offset-5" style="margin-top: 50px">
 			<form method="post" action="webapi/team/upload"

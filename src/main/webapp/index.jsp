@@ -108,7 +108,7 @@
     <header>
         <div class="container">
             <div class="row">
-                    <img class="img-responsive" src="img/header.png">
+                    <img class="img-responsive" src="img/photo.png">
             </div>
         </div>
     </header>
