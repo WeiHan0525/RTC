@@ -49,7 +49,7 @@ public class TeamService {
 			return Response.temporaryRedirect(location).build();
 		}
 		
-		java.net.URI location = new java.net.URI("../systemBusy.jsp");
+		java.net.URI location = new java.net.URI("../signUpFalse.jsp");
 		return Response.temporaryRedirect(location).build();
 	}
 	

@@ -78,7 +78,7 @@ public class TeamDBManager {
 		int z;
 		StringBuilder sb = new StringBuilder();
 		int i;
-		for (i = 0; i < 8; i++) {
+		for (i = 0; i < 5; i++) {
 			z = (int) ((Math.random() * 7) % 3);
 
 			if (z == 1) { // ��Ʀr

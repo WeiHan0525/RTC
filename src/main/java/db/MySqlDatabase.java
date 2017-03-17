@@ -12,8 +12,8 @@ public class MySqlDatabase implements IDatabase {
 //  private static final String DB_CONNECTION = "jdbc:mysql://140.134.26.64:2017/RTCweb?relaxAutoCommit=true&useSSL=false&useUnicode=true&characterEncoding=utf-8";
   private static final String DB_CONNECTION = "jdbc:mysql://localhost:3306/rtcweb2?characterEncoding=utf8";
   private static final String DB_USER = "root";
-//  private static final String DB_PASSWORD = "selabxrtcdb245";
-  private static final String DB_PASSWORD = "";
+  private static final String DB_PASSWORD = "selabxrtcdb245";
+//  private static final String DB_PASSWORD = "";
   private Connection con = null; 
   
   @Override

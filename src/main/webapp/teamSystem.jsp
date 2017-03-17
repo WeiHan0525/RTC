@@ -77,7 +77,7 @@ if (email == null || email.equals("")) {
 	</nav>
 
 	<section id="upload" style="padding-top: 100px">
-	<div class="container" style="padding-bottom: 100px">
+	<div class="container" style="padding-bottom: 50px">
 		<div class="col-lg-12 text-center">
 			<h2>競賽文件</h2>
 		</div>
@@ -95,7 +95,7 @@ if (email == null || email.equals("")) {
                             <td><p>繳交報名文件</p></td>
                             <td>
                             	<p style="color: #760000">附件一</p>
-                            	<p style="color: #760000">文件需整併成一個PDF檔,檔案名稱須同【參賽APP名稱】。</p>
+                            	<p style="color: #760000">文件需整併成一個PDF檔,檔案名稱須同【聯絡⼈學校_聯絡⼈系級_聯絡⼈姓名_參賽APP名稱】。</p>
                             </td>
                         </tr>
                         <tr>
@@ -104,7 +104,7 @@ if (email == null || email.equals("")) {
                             <td><p>參賽作品交件</p></td>
                             <td>
                             	<p style="color: #760000">附件二</p>
-                            	<p style="color: #760000">請以A4版面書寫5至10頁以內，另作封面註明隊伍名稱與作品名稱，檔案格式請存成 PDF檔，檔案名稱須同【參賽APP名稱_企劃書】，檔案大小請避免超過10MB。</p>
+                            	<p style="color: #760000">請以A4版面書寫5至10頁以內，另作封面註明隊伍名稱與作品名稱，檔案格式請存成 PDF檔，檔案名稱須同【聯絡⼈學校_聯絡⼈系級_聯絡⼈姓名_參賽APP名稱_企劃書】，檔案大小請避免超過10MB。</p>
                             </td>
                         </tr>
                         <tr>
@@ -116,45 +116,50 @@ if (email == null || email.equals("")) {
                         <tr>
                             <td><p>2017/5/25~5/31</p></td>
                             <td><p>決賽繳交</p></td>
-                            <td><p>進入決賽隊伍，若有成員未滿二十歲者，需補交「法定代理人同意書」，任一人未於時間內繳交者，則取消該隊決賽資格，由下一順序之參賽隊伍遞補。</p></td>
+                            <td class="col-md-4"><p>進入決賽隊伍，若有成員未滿二十歲者，需補交「法定代理人同意書」，任一人未於時間內繳交者，則取消該隊決賽資格，由下一順序之參賽隊伍遞補。</p></td>
                             <td><p style="color: #760000">（法定代理人同意書）</p></td>
                         </tr>
                         <tr>
                             <td><p>2017/6/1 ~ 2017/6/30</p></td>
                             <td><p>實作APP作品提交</p></td>
-                            <td><p>進入決賽的參賽隊伍對參賽作品進行修改提交，決賽現場的提案簡報檔、<br>SOURCE CODE、APP宣傳資料，以及APP操作過程的影片檔。</p></td>
-                            <td class="col-md-3 text-left">
+                            <td><p>進入決賽的參賽隊伍對參賽作品進行修改提交，決賽現場的提案簡報檔、SOURCE CODE、APP宣傳資料，以及APP操作過程的影片檔。</p></td>
+                            <td class="col-md-4 text-left">
                             	<ol>
                             		<li><p style="color: #760000">操作影片：請依照企劃書內容撰寫出適⽤可攜式移動裝置之 APP ，操作過程需拍攝成影片，影片長度180秒，限MP4格式，解析度1280*720 dpi 以上，須上傳至YouTube設定為公開播放，並將影片播放網址填⾄現場簡報檔中；視頻內容必須與APP應用相關，任何含暴力、色情等的內容均將被駁回。</p></li>
                             		<li><p style="color: #760000">現場簡報檔，提報時間以10分鐘為限。</p></li>
                             		<li><p style="color: #760000">SOURCE CODE 文字檔案。</p></li>
                             		<li><p style="color: #760000">APP宣傳資料( 如附件三)。</p></li>
-                            		<li><p style="color: #760000">以上(1)~(4)資料，請存成一個資料夾，檔案名稱須同【參賽APP名稱_APP作品】。</p></li>
+                            		<li><p style="color: #760000">以上(1)~(4)資料，請存成一個資料夾，檔案名稱須同【聯絡⼈學校_聯絡⼈系級_聯絡⼈姓名_參賽APP名稱_APP作品】。</p></li>
                             	</ol>
                             </td>
                         </tr>
                         <tr>
                             <td><p>2017/7/8</p></td>
                             <td><p>決賽現場</p></td>
-                            <td><p>於逢甲大學進行決賽，現場展演、答辯及評選，<br>現場必須使用Apple硬體為載具進行展演，設備需自行攜帶。</p></td>
+                            <td><p>於逢甲大學進行決賽，現場展演、答辯及評選，現場必須使用Apple硬體為載具進行展演，設備需自行攜帶。</p></td>
                             <td><p style="color: #760000"> </p></td>
                         </tr>
             </table>
             <br>
             <a href="2017年APP移動應用創新賽.pdf" class="btn btn-default" target = "_blank">全部附件下載</a>
 		</div>
-		<div class="col-md-2 col-md-offset-5" style="margin-top: 50px">
+		<div class="col-md-6 col-md-offset-4">
+			<h4 style="color: #760000">※範例檔名：逢甲大學_資訊四丙_王小明_逢甲美食地圖.pdf</h4>
+		</div>
+		<div class="col-md-2 col-md-offset-5" style="margin-top: 20px">
 			<form method="post" action="webapi/team/upload"
 				enctype="multipart/form-data" accept-charset="UTF-8">
 				<div class="form-group">
 					<h4>上傳檔案</h4>
 					<input type="file" name="file" size="50" /> <br>
-					<h4 style="color: #760000">※請上傳pdf檔</h4>
 				</div>
-				<div class="col-md-3 col-md-offset-3" style="margin-top: 50px">
+				<div class="col-md-3 col-md-offset-3" style="margin-top: 30px">
 					<button type="submit" class="btn btn-primary">送出</button>
 				</div>
 			</form>
+		</div>
+		<div class="col-md-8" style="margin-top: 20px">
+			<p>網站更新日期：2017/03/17</p>
 		</div>
 	</div>
 	</section>
@@ -166,27 +171,8 @@ if (email == null || email.equals("")) {
 			<div class="row">
 				<div class="footer-col col-md-4">
 					<h3>主辦單位</h3>
-					<ul class="list-inline">
-						<li>
-							<a href="http://rtc.fcu.edu.tw">Apple RTC區域教育培訓中心-逢甲大學</a>
-						</li>
-						<li>
-							<p>
-								<a href="http://www.straighta.com.tw/">晶盛科技股份有限公司</a>
-							</p>
-						</li>
-						<!--
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
--->
-					</ul>
+					<p><a href="http://rtc.fcu.edu.tw">Apple RTC區域教育培訓中心-逢甲大學</a><p>
+                        <p><a href="http://www.straighta.com.tw/">晶盛科技股份有限公司</a></p>
 				</div>
 				<div class="footer-col col-md-4">
 					<h3>協辦單位</h3>

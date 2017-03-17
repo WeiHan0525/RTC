@@ -109,27 +109,8 @@
 			<div class="row">
 				<div class="footer-col col-md-4">
 					<h3>主辦單位</h3>
-					<ul class="list-inline">
-						<li>
-							<a href="http://rtc.fcu.edu.tw">Apple RTC區域教育培訓中心-逢甲大學</a>
-						</li>
-						<li>
-							<p>
-								<a href="http://www.straighta.com.tw/">晶盛科技股份有限公司</a>
-							</p>
-						</li>
-						<!--
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
--->
-					</ul>
+					<p><a href="http://rtc.fcu.edu.tw">Apple RTC區域教育培訓中心-逢甲大學</a><p>
+                        <p><a href="http://www.straighta.com.tw/">晶盛科技股份有限公司</a></p>
 				</div>
 				<div class="footer-col col-md-4">
 					<h3>協辦單位</h3>

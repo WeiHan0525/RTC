@@ -12,7 +12,7 @@ p.small{font-size:16px}
 /*a,a.active,a:active,a:focus,a:hover{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif; color:#18BC9C;outline:0}*/
 a,a.active,a:active,a:focus,a:hover{font-size: 16px; font-family:"MyriadPro","sourcehansans-tc","Microsoft JhengHei"; color:#fff;outline:0}
 
-h1,h2,h3,h4,h5,h6{font-family:"MyriadPro","sourcehansans-tc","Microsoft JhengHei";text-transform:uppercase;font-weight:700}
+h1,h2,h3,h4,h5,h6{font-family:"MyriadPro","sourcehansans-tc","Microsoft JhengHei";font-weight:700}
 
 /*hr.star-light,hr.star-primary{padding:0;border:none;border-top:solid 5px;text-align:center;max-width:250px;margin:25px auto 30px}*/
 hr.star-light,hr.star-primary{padding:0;border:none;border-top:dashed 1px;text-align:center;margin:25px auto 30px}
@@ -47,6 +47,7 @@ header .intro-text .skills{font-size:1.25em;font-weight:300}
 */
 
 /*.navbar-custom{background-color: rgba(255,255,255,0.9);font-weight:700;border-bottom: 9px solid #00c7b6;}*/
+.navbar-brand{font-size: 16px}
 .navbar-custom{background-color: rgba(255,255,255,0.9);border-bottom: 9px solid #00c7b6;}
 .navbar-custom a:focus{outline:0}
 .navbar-custom .navbar-nav{letter-spacing:1px;font-size: 16px}
