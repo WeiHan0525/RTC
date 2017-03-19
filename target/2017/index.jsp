@@ -123,7 +123,6 @@
                 </div>
             </div>
             <div class="row">
-                <!--<div class="col-lg-8 col-lg-offset-2">-->
                 <div class="col-lg-10 col-lg-offset-1">
                     <table style="width: 100%;"  class="text-center">
                         <tr>
@@ -488,7 +487,57 @@
                     </div>
                 </div>
             </div>
-                    <p>網站更新日期：2017/03/17</p>
+        </div>
+    </section>
+    
+    <section id="donate">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>贊助廠商</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-4">
+                	<a href="http://www.myvita.com.tw">
+                		<img class="img-responsive" alt="中保無限家" src="img/Sigmu.png">
+                	</a>
+                </div>
+                <div class="col-lg-4 litenet">
+                	<a href="http://www.myvita.com.tw">
+                		<img class="img-responsive" alt="Litenet" src="img/Litenet.png">
+                	</a>
+                </div>
+                <div class="col-lg-4 studioa">
+                	<a href="http://www.studioa.com.tw">
+                		<img class="img-responsive" alt="StudioA" src="img/StudioA.png">
+                	</a>
+                </div>
+            </div>
+            <div class="row text-center smallImg">
+                <div class="col-lg-3">
+                	<a href="http://www.foracare.com.tw">
+                		<img class="img-responsive" alt="FORA" src="img/Fora.png">
+                	</a>
+                </div>
+                <div class="col-lg-3">
+                	<a href="http://www.opro9.com/">
+                		<img class="img-responsive" alt="Opro9" src="img/Opro9.png">
+                	</a>
+                </div>
+                <div class="col-lg-3">
+                	<a href="http://www.qblinks.com">
+                		<img class="img-responsive" alt="Qblinks" src="img/Qblinks.png">
+                	</a>
+                </div>
+                <div class="col-lg-3">
+                	<a href="http://www.atomaxinc.com">
+                		<img class="img-responsive" alt="Atomax" src="img/Atomax.png">
+                	</a>
+                </div>
+            </div>
+                    <p>網站更新日期：2017/03/20</p>
         </div>
     </section>
 
