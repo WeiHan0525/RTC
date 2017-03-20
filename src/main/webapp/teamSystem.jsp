@@ -159,7 +159,7 @@ if (email == null || email.equals("")) {
 			</form>
 		</div>
 		<div class="col-md-8" style="margin-top: 20px">
-			<p>網站更新日期：2017/03/17</p>
+			<p>網站更新日期：2017/03/20</p>
 		</div>
 	</div>
 	</section>
