@@ -501,39 +501,39 @@
             <div class="row text-center">
                 <div class="col-lg-4">
                 	<a href="http://www.myvita.com.tw">
-                		<img class="img-responsive" alt="中保無限家" src="/2017/img/Sigmu.png">
+                		<img class="img-responsive" alt="中保無限家" src="/img/Sigmu.png">
                 	</a>
                 </div>
                 <div class="col-lg-4 litenet">
                 	<a href="http://www.myvita.com.tw">
-                		<img class="img-responsive" alt="Litenet" src="/2017/img/Litenet.png">
+                		<img class="img-responsive" alt="Litenet" src="/img/Litenet.png">
                 	</a>
                 </div>
                 <div class="col-lg-4 studioa">
                 	<a href="http://www.studioa.com.tw">
-                		<img class="img-responsive" alt="StudioA" src="/2017/img/StudioA.png">
+                		<img class="img-responsive" alt="StudioA" src="/img/StudioA.png">
                 	</a>
                 </div>
             </div>
             <div class="row text-center smallImg">
                 <div class="col-lg-3">
                 	<a href="http://www.foracare.com.tw">
-                		<img class="img-responsive" alt="FORA" src="/2017/img/Fora.png">
+                		<img class="img-responsive" alt="FORA" src="/img/Fora.png">
                 	</a>
                 </div>
                 <div class="col-lg-3">
                 	<a href="http://www.opro9.com/">
-                		<img class="img-responsive" alt="Opro9" src="/2017/img/Opro9.png">
+                		<img class="img-responsive" alt="Opro9" src="/img/Opro9.png">
                 	</a>
                 </div>
                 <div class="col-lg-3">
                 	<a href="http://www.qblinks.com">
-                		<img class="img-responsive" alt="Qblinks" src="/2017/img/Qblinks.png">
+                		<img class="img-responsive" alt="Qblinks" src="/img/Qblinks.png">
                 	</a>
                 </div>
                 <div class="col-lg-3">
                 	<a href="http://www.atomaxinc.com">
-                		<img class="img-responsive" alt="Atomax" src="/2017/img/Atomax.png">
+                		<img class="img-responsive" alt="Atomax" src="/img/Atomax.png">
                 	</a>
                 </div>
             </div>
