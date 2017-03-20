@@ -112,11 +112,10 @@ section.success{background:#18BC9C;color:#fff}
 #login input{border: 2px solid gray; font-size: 1.3em; line-height: 40px; border-radius: 8px; margin: 10px 0 10px 0; padding: 0 15px}
 
 #donate .container{padding-bottom: 30px}
-#donate .row{padding: 0}
-#donate .litenet{padding-top: 80px}
-#donate .studioa{padding-top: 60px}
-#donate .smallImg{padding-top: 20px; padding-left: 40px}
-#donate img{margin: auto}
+#donate .litenet{padding-top: 60px}
+#donate .studioa{padding-top: 50px}
+#donate .smallImg{padding-top: 20px; padding-left: 30px}
+#donate img{margin: auto; padding: 30px}
 
 /*#schedule p, #award p, #require p, #product p, */
 

@@ -246,7 +246,7 @@
                     <div class="col-lg-4">
                         <table>
                             <tr><td><img src="img/letter.png" class="img-responsive"></td></tr>
-                            <tr><td><strong><p class="text-center" style="font-size: 22px;margin-top: 10px">報名</p></strong></td></tr>
+                            <tr><td><p class="text-center" style="font-size: 22px;margin-top: 10px"><strong>報名</strong></p></td></tr>
                             <tr>
                             	<td>
                             		<p style="padding-left: 40px;padding-right: 40px">參賽隊伍通過大賽網站報名註冊，同時須提交用印報名表，每支參賽隊伍，含指導老師，最多不得超過4名成員。</p>
@@ -501,39 +501,39 @@
             <div class="row text-center">
                 <div class="col-lg-4">
                 	<a href="http://www.myvita.com.tw">
-                		<img class="img-responsive" alt="中保無限家" src="img/Sigmu.png">
+                		<img class="img-responsive" alt="中保無限家" src="/2017/img/Sigmu.png">
                 	</a>
                 </div>
                 <div class="col-lg-4 litenet">
                 	<a href="http://www.myvita.com.tw">
-                		<img class="img-responsive" alt="Litenet" src="img/Litenet.png">
+                		<img class="img-responsive" alt="Litenet" src="/2017/img/Litenet.png">
                 	</a>
                 </div>
                 <div class="col-lg-4 studioa">
                 	<a href="http://www.studioa.com.tw">
-                		<img class="img-responsive" alt="StudioA" src="img/StudioA.png">
+                		<img class="img-responsive" alt="StudioA" src="/2017/img/StudioA.png">
                 	</a>
                 </div>
             </div>
             <div class="row text-center smallImg">
                 <div class="col-lg-3">
                 	<a href="http://www.foracare.com.tw">
-                		<img class="img-responsive" alt="FORA" src="img/Fora.png">
+                		<img class="img-responsive" alt="FORA" src="/2017/img/Fora.png">
                 	</a>
                 </div>
                 <div class="col-lg-3">
                 	<a href="http://www.opro9.com/">
-                		<img class="img-responsive" alt="Opro9" src="img/Opro9.png">
+                		<img class="img-responsive" alt="Opro9" src="/2017/img/Opro9.png">
                 	</a>
                 </div>
                 <div class="col-lg-3">
                 	<a href="http://www.qblinks.com">
-                		<img class="img-responsive" alt="Qblinks" src="img/Qblinks.png">
+                		<img class="img-responsive" alt="Qblinks" src="/2017/img/Qblinks.png">
                 	</a>
                 </div>
                 <div class="col-lg-3">
                 	<a href="http://www.atomaxinc.com">
-                		<img class="img-responsive" alt="Atomax" src="img/Atomax.png">
+                		<img class="img-responsive" alt="Atomax" src="/2017/img/Atomax.png">
                 	</a>
                 </div>
             </div>
